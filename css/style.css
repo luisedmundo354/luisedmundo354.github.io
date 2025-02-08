@@ -1,8 +1,8 @@
 /* css/style.css */
 :root {
-  --bg-color: #121212;
-  --text-color: #e0e0e0;
-  --accent-color: #00ff99;
+  --bg-color: #000000;           /* Brighter pure black background */
+  --text-color: #ffffff;         /* Pure white text */
+  --accent-color: #00ff99;       /* Neon green accent */
   --font-primary: 'Fira Code', monospace;
   --container-width: 80%;
   --max-width: 1200px;
