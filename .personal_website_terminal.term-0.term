@@ -64,4 +64,28 @@ bash: cd: script.js: No such file or directory
 ]0;~/personal_website[01;34m~/personal_website[00m$ mkdir assets
 ]0;~/personal_website[01;34m~/personal_website[00m$ cd assets
 ]0;~/personal_website/assets[01;34m~/personal_website/assets[00m$ touch r[K[K[K[K[K[K[Kcd ..
-]0;~/personal_website[01;34m~/personal_website[00m$ git add .[K[K[K[K[K[K[K[K[Kgit a
+]0;~/personal_website[01;34m~/personal_website[00m$ git add .[K[K[K[K[K[K[K[K[Kgit add .
+]0;~/personal_website[01;34m~/personal_website[00m$ git commit -m "Initial commit"
+[master (root-commit) cde1b01] Initial commit
+ 5 files changed, 67 insertions(+)
+ create mode 100644 .personal_website_terminal.term-0.term
+ create mode 100644 css/style.css
+ create mode 100644 index.html
+ create mode 100644 js/script.js
+ create mode 100644 personal_website_terminal.term
+]0;~/personal_website[01;34m~/personal_website[00m$ git puch -u origin master
+git: 'puch' is not a git command. See 'git --help'.
+
+The most similar command is
+	push
+]0;~/personal_website[01;34m~/personal_website[00m$ git su[K[Kpush -u origin master
+Enumerating objects: 6, done.
+Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 1.87 KiB | 1.87 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/luisedmundo354/luisedmundo354.github.io.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/personal_website[01;34m~/personal_website[00m$ [K]0;~/personal_website[01;34m~/personal_website[00m$ g
