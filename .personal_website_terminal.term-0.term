@@ -88,4 +88,19 @@ Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/luisedmundo354/luisedmundo354.github.io.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
-]0;~/personal_website[01;34m~/personal_website[00m$ [K]0;~/personal_website[01;34m~/personal_website[00m$ g
+]0;~/personal_website[01;34m~/personal_website[00m$ [K]0;~/personal_website[01;34m~/personal_website[00m$ gut[K[K[Kgit add .
+]0;~/personal_website[01;34m~/personal_website[00m$ git commit -m "added information"
+[master c7514a9] added information
+ 4 files changed, 354 insertions(+), 1 deletion(-)
+]0;~/personal_website[01;34m~/personal_website[00m$ git push -u origin master
+Enumerating objects: 15, done.
+Counting objects:   7% (1/13)Counting objects:  15% (2/13)Counting objects:  23% (3/13)Counting objects:  30% (4/13)Counting objects:  38% (5/13)Counting objects:  46% (6/13)Counting objects:  53% (7/13)Counting objects:  61% (8/13)Counting objects:  69% (9/13)Counting objects:  76% (10/13)Counting objects:  84% (11/13)Counting objects:  92% (12/13)Counting objects: 100% (13/13)Counting objects: 100% (13/13), done.
+Delta compression using up to 4 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  12% (1/8)Writing objects:  25% (2/8)Writing objects:  37% (3/8)Writing objects:  50% (4/8)Writing objects:  62% (5/8)Writing objects:  75% (6/8)Writing objects:  87% (7/8)Writing objects: 100% (8/8)Writing objects: 100% (8/8), 5.17 KiB | 378.00 KiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/luisedmundo354/luisedmundo354.github.io.git
+   cde1b01..c7514a9  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/personal_website[01;34m~/personal_website[00m$ g
