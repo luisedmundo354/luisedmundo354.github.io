@@ -612,4 +612,19 @@ remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[K
 To https://github.com/luisedmundo354/luisedmundo354.github.io.git
    2c74830..6ac76f8  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
-]0;~/personal_website[01;34m~/personal_website[00m$ [K]0;~/personal_website[01;34m~/personal_website[00m$ [K]0;~/personal_website[01;34m~/personal_website[00m$ g
+]0;~/personal_website[01;34m~/personal_website[00m$ [K]0;~/personal_website[01;34m~/personal_website[00m$ [K]0;~/personal_website[01;34m~/personal_website[00m$ git addd[K .
+]0;~/personal_website[01;34m~/personal_website[00m$ git commit -m "[K"icons added"
+[master 6d2759c] icons added
+ 3 files changed, 52 insertions(+), 8 deletions(-)
+]0;~/personal_website[01;34m~/personal_website[00m$ git push -a [K[Ku origin master
+Enumerating objects: 15, done.
+Counting objects:   6% (1/15)Counting objects:  13% (2/15)Counting objects:  20% (3/15)Counting objects:  26% (4/15)Counting objects:  33% (5/15)Counting objects:  40% (6/15)Counting objects:  46% (7/15)Counting objects:  53% (8/15)Counting objects:  60% (9/15)Counting objects:  66% (10/15)Counting objects:  73% (11/15)Counting objects:  80% (12/15)Counting objects:  86% (13/15)Counting objects:  93% (14/15)Counting objects: 100% (15/15)Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  12% (1/8)Writing objects:  25% (2/8)Writing objects:  37% (3/8)Writing objects:  50% (4/8)Writing objects:  62% (5/8)Writing objects:  75% (6/8)Writing objects:  87% (7/8)Writing objects: 100% (8/8)Writing objects: 100% (8/8), 1.23 KiB | 1.23 MiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To https://github.com/luisedmundo354/luisedmundo354.github.io.git
+   6ac76f8..6d2759c  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/personal_website[01;34m~/personal_website[00m$ g
