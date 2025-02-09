@@ -3,11 +3,16 @@ layout: default
 title: "Luis Edmundo Brena Pantoja – Portfolio"
 ---
 
-# About Me
+<div class="container">
 
-I’m **Luis Edmundo Brena Pantoja**, a Professional in Engineering Management based in Baltimore, MD. After a successful career in hospitality and retail, I’m now transitioning into the automation and consumer electronics industry. I bring an organized, creative, and solutions-oriented approach with deep expertise in automation principles, manufacturing processes, and robotics.
+<section id="about" class="section-wrapper">
+## About Me
 
-# Skills
+I’m **Luis Edmundo Brena Pantoja**, a Professional in Engineering Management based in Baltimore, MD. After a successful career in hospitality and retail, I’m now transitioning into the automation and consumer electronics industry. I bring a creative, organized, and solutions‐oriented approach with deep expertise in automation principles, manufacturing processes, and robotics.
+</section>
+
+<section id="skills" class="section-wrapper">
+## Skills
 
 **Technical:**  
 - ROS2, Python, MATLAB, MS Excel, SQL  
@@ -21,99 +26,101 @@ I’m **Luis Edmundo Brena Pantoja**, a Professional in Engineering Management b
 **Tools & Languages:**  
 - Excel/Numbers/Sheets, Visio, Power BI, Minitab, CAD  
 - Fluent in Spanish and English
+</section>
 
-# Education
+<section id="education" class="section-wrapper">
+## Education
 
-## Johns Hopkins University  
-**Master's, Engineering Management**  
-*Technical Track: Smart Product and Device Design*  
+**Johns Hopkins University**  
+*Master's, Engineering Management* (Technical Track: Smart Product and Device Design)  
 _August 2023 – May 2025_ • GPA: 3.65  
-Relevant coursework: Artificial Intelligence, Algorithms for Sensor-based Robotics, Reinforcement Learning, Artificial Agents (NLP), Customer Discovery, Finance, and Strategic Planning.
+Relevant coursework: Artificial Intelligence, Algorithms for Sensor-based Robotics, Reinforcement Learning, Artificial Agents (NLP), Customer Discovery, Finance, Strategic Planning.
 
-## Universidad de Lima  
-**Bachelor's, Industrial Engineering**  
+**Universidad de Lima**  
+*Bachelor's, Industrial Engineering*  
 _March 2013 – February 2018_ • GPA: 4  
-Relevant coursework: Marketing, Process Engineering, Industrial Automation, Process Analysis, Electrical Engineering, Industrial Technology, and Operations Research.
+Relevant coursework: Marketing, Process Engineering, Industrial Automation, Process Analysis, Electrical Engineering, Industrial Technology, Operations Research.
+</section>
 
-# Certifications
+<section id="certifications" class="section-wrapper">
+## Certifications
 
-- **Executive Certificate in Management, Innovation, and Technology**  
-  MIT Sloan, MA – 2021
-- **SolidWorks Essentials Certificate**  
-  SolidWorks, Peru – 2016
-- **Mechatronics, Robotics, and Automation Engineering**  
-  TECSUP, Peru – 2013
+- **Executive Certificate in Management, Innovation, and Technology** – MIT Sloan, MA (2021)
+- **SolidWorks Essentials Certificate** – SolidWorks, Peru (2016)
+- **Mechatronics, Robotics, and Automation Engineering** – TECSUP, Peru (2013)
+</section>
 
-# Professional Experience
+<section id="experience" class="section-wrapper">
+## Professional Experience
 
-## Peabody Institute of The Johns Hopkins University  
-**Event Manager** | Baltimore, MD, USA  
+**Peabody Institute of The Johns Hopkins University** – *Event Manager* | Baltimore, MD, USA  
 _July 2024 – Present_  
-- Applied Lean Six Sigma techniques to reduce picking time and ensure proper handling procedures.
-- Implemented statistical tracking and cycle counting to monitor inventory waste and consumption.
-- Organized inventory by re-structuring database attributes and categorizing items by picking likelihood.
-- Assisted in organizing Orientation Week for 300 students, earning positive feedback.
+- Applied Lean Six Sigma techniques to reduce picking time and ensure proper handling.
+- Implemented statistical tracking and cycle counting to monitor inventory waste.
+- Reorganized inventory by restructuring database attributes.
+- Assisted in organizing Orientation Week for 300 students.
 
-## CHC – Best Western Franchisee  
-**Hotel Manager – Hospitality** | Huancayo, JU, Peru  
+**CHC – Best Western Franchisee** – *Hotel Manager – Hospitality* | Huancayo, JU, Peru  
 _August 2018 – August 2023_  
 - Launched a Revenue Management System that boosted revenue per available room.
-- Achieved a 6% increase in Gross Margin and a 10% improvement in Net Profit Margin through system enhancements.
+- Achieved a 6% increase in Gross Margin and a 10% improvement in Net Profit Margin.
 - Secured a regional bid during the COVID-19 pandemic, resulting in a 50% revenue increase.
-- Led a team of 24 in implementing standard operating procedures (SOPs) and front-office training programs.
-
-## Grupo Oka  
-**Founder** | Huancayo, JU, Peru  
+- Led a team of 24 in implementing standard operating procedures and training.
+  
+**Grupo Oka** – *Founder* | Huancayo, JU, Peru  
 _October 2018 – August 2023_  
-- Established a food retail business with annual revenue of $300K and managed an inventory averaging 1,300 SKUs.
+- Established a food retail business with $300K annual revenue and managed ~1,300 SKUs.
 - Achieved the city’s highest sales in the Specialty Food category.
-- Developed and secured a financing strategy that raised $200K for initial business development.
-- Implemented procurement and order optimization systems, reducing stockouts to under 5%.
+- Secured $200K in financing for initial business development.
+- Implemented procurement systems that reduced stockouts to under 5%.
+</section>
 
-# Projects & Outside Experience
+<section id="projects" class="section-wrapper">
+## Projects & Outside Experience
 
-## Design Process Improvement at Intralox  
-**Engineering Apprentice | Generative AI** | Baltimore, MD, USA  
+**Design Process Improvement at Intralox** – *Engineering Apprentice | Generative AI* | Baltimore, MD, USA  
 _September 2023 – December 2023_  
-- Developed a generative AI process integrated with design thinking to increase the output for the R&D team.
-- Created detailed process diagrams using Microsoft Visio and pitched the new process for adoption.
-- Designed and tested a digital application utilizing the ChatGPT API for iterative prompting.
+- Developed a generative AI process to increase design output for the R&D team.
+- Created process diagrams using Microsoft Visio and presented the proposal.
+- Designed and tested a digital application utilizing the ChatGPT API.
 
-## Bed Assignment Process Improvement at Johns Hopkins Hospital  
-**Operations Analyst Trainee** | Baltimore, MD, USA  
+**Bed Assignment Process Improvement at Johns Hopkins Hospital** – *Operations Analyst Trainee* | Baltimore, MD, USA  
 _August 2023 – September 2023_  
-- Revamped the communication process between the Emergency Department and the Capacity Command Center.
-- Proposed alternatives to reduce resolution calls and streamline the patient bed assignment process.
-- Presented findings and recommendations to the hospital management team.
+- Revamped communication between the Emergency Department and Capacity Command Center.
+- Proposed alternatives to streamline bed assignments and reduce resolution calls.
+- Presented findings to the management team.
 
-## Operational Restructuring at Centrocorp – Honda Motor Official Dealer  
-**Operational Restructuring Manager** | Huancayo, JU, Peru  
+**Operational Restructuring at Centrocorp – Honda Motor Official Dealer** – *Operational Restructuring Manager* | Huancayo, JU, Peru  
 _August 2019 – December 2020_  
-- Increased maintenance business unit revenue by 15% by adding bodywork and painting stations.
-- Generated $25,000 in revenue through effective liquidation of dead stock.
-- Negotiated a partnership with Valvoline to promote oil-change services.
-- Closed a managing partnership deal, projecting a 50% increase in annual revenue.
+- Increased maintenance unit revenue by 15% with new service additions.
+- Generated $25K in revenue through efficient liquidation of dead stock.
+- Negotiated a partnership with Valvoline and secured a managing partnership deal.
+</section>
 
-# Honors & Prizes
+<section id="honors" class="section-wrapper">
+## Honors & Prizes
 
 - **Corporate Governance Essay Contest Winner**  
   *Issued by Universidad de Lima – July 2017*
+</section>
 
-# Publications & Manuscripts
+<section id="publications" class="section-wrapper">
+## Publications & Manuscripts
 
 - [Publication Title 1](https://doi.org/10.1000/example1) – Journal of Automation, 2023  
-- [Publication Title 2](https://doi.org/10.1000/example2) – Conference on Industrial Automation, 2022  
+- [Publication Title 2](https://doi.org/10.1000/example2) – Conference on Industrial Automation, 2022
+</section>
 
-# Contact
+<section id="contact" class="section-wrapper">
+## Contact
 
 For inquiries or further information, please reach out via:
 
-- **Email:** [lbrenap1@jhu.edu](mailto:lbrenap1@jhu.edu)
-- **LinkedIn:** [linkedin.com/in/luis-brena](https://www.linkedin.com/in/luis-brena/)
+- **Email:** [lbrenap1@jhu.edu](mailto:lbrenap1@jhu.edu)  
+- **LinkedIn:** [linkedin.com/in/luis-brena](https://www.linkedin.com/in/luis-brena/)  
 - **GitHub:** [github.com/luisedmundo354](https://github.com/luisedmundo354)
 
-You can also [download my resume](assets/resume.pdf).
+[Download My Resume](assets/resume.pdf)
+</section>
 
----
-
-*Thank you for visiting my portfolio!*
+</div>
