@@ -3,11 +3,11 @@ layout: default
 title: "Luis Edmundo Brena Pantoja – Portfolio"
 ---
 
-## About Me
+## About Me {#about}
 
 I’m **Luis Edmundo Brena Pantoja**, a Professional in Engineering Management based in Baltimore, MD. After a successful career in hospitality and retail, I’m now transitioning into the automation and consumer electronics industry. I bring a creative, organized, and solutions‑oriented approach with deep expertise in automation principles, manufacturing processes, and robotics.
 
-## Skills
+## Skills {#skills}
 
 **Technical:**  
 - ROS2, Python, MATLAB, MS Excel, SQL  
@@ -22,7 +22,7 @@ I’m **Luis Edmundo Brena Pantoja**, a Professional in Engineering Management b
 - Excel/Numbers/Sheets, Visio, Power BI, Minitab, CAD  
 - Fluent in Spanish and English
 
-## Education
+## Education {#education}
 
 **Johns Hopkins University**  
 *Master's, Engineering Management* (Technical Track: Smart Product and Device Design)  
@@ -34,13 +34,13 @@ Relevant coursework: Artificial Intelligence, Algorithms for Sensor‑based Robo
 _March 2013 – February 2018_ • GPA: 4  
 Relevant coursework: Marketing, Process Engineering, Industrial Automation, Process Analysis, Electrical Engineering, Industrial Technology, Operations Research.
 
-## Certifications
+## Certifications {#certifications}
 
 - **Executive Certificate in Management, Innovation, and Technology** – MIT Sloan, MA (2021)
 - **SolidWorks Essentials Certificate** – SolidWorks, Peru (2016)
 - **Mechatronics, Robotics, and Automation Engineering** – TECSUP, Peru (2013)
 
-## Professional Experience
+## Professional Experience {#experience}
 
 **Peabody Institute of The Johns Hopkins University** – *Event Manager* | Baltimore, MD, USA  
 _July 2024 – Present_  
@@ -63,7 +63,7 @@ _October 2018 – August 2023_
 - Secured $200K in financing for initial business development.
 - Implemented procurement systems that reduced stockouts to under 5%.
 
-## Projects & Outside Experience
+## Projects & Outside Experience {#projects}
 
 **Design Process Improvement at Intralox** – *Engineering Apprentice | Generative AI* | Baltimore, MD, USA  
 _September 2023 – December 2023_  
@@ -83,17 +83,17 @@ _August 2019 – December 2020_
 - Generated $25K through efficient liquidation of dead stock.
 - Negotiated a partnership with Valvoline and secured a managing partnership deal.
 
-## Honors & Prizes
+## Honors & Prizes {#honors}
 
 - **Corporate Governance Essay Contest Winner**  
   *Issued by Universidad de Lima – July 2017*
 
-## Publications & Manuscripts
+## Publications & Manuscripts {#publications}
 
 - [Publication Title 1](https://doi.org/10.1000/example1) – Journal of Automation, 2023  
 - [Publication Title 2](https://doi.org/10.1000/example2) – Conference on Industrial Automation, 2022
 
-## Contact
+## Contact {#contact}
 
 For inquiries or further information, please reach out via:
 
