@@ -3,14 +3,16 @@ layout: default
 title: "Luis Edmundo Brena Pantoja – Portfolio"
 ---
 
-<div class="container">
+<div class="portfolio-container">
 
+<!-- About Section -->
 <section id="about" class="section-wrapper">
 ## About Me
 
 I’m **Luis Edmundo Brena Pantoja**, a Professional in Engineering Management based in Baltimore, MD. After a successful career in hospitality and retail, I’m now transitioning into the automation and consumer electronics industry. I bring a creative, organized, and solutions‑oriented approach with deep expertise in automation principles, manufacturing processes, and robotics.
 </section>
 
+<!-- Skills Section -->
 <section id="skills" class="section-wrapper">
 ## Skills
 
@@ -28,6 +30,7 @@ I’m **Luis Edmundo Brena Pantoja**, a Professional in Engineering Management b
 - Fluent in Spanish and English
 </section>
 
+<!-- Education Section -->
 <section id="education" class="section-wrapper">
 ## Education
 
@@ -42,6 +45,7 @@ _March 2013 – February 2018_ • GPA: 4
 Relevant coursework: Marketing, Process Engineering, Industrial Automation, Process Analysis, Electrical Engineering, Industrial Technology, Operations Research.
 </section>
 
+<!-- Certifications Section -->
 <section id="certifications" class="section-wrapper">
 ## Certifications
 
@@ -50,6 +54,7 @@ Relevant coursework: Marketing, Process Engineering, Industrial Automation, Proc
 - **Mechatronics, Robotics, and Automation Engineering** – TECSUP, Peru (2013)
 </section>
 
+<!-- Professional Experience Section -->
 <section id="experience" class="section-wrapper">
 ## Professional Experience
 
@@ -66,7 +71,7 @@ _August 2018 – August 2023_
 - Achieved a 6% increase in Gross Margin and a 10% improvement in Net Profit Margin.
 - Secured a regional bid during the COVID-19 pandemic, resulting in a 50% revenue increase.
 - Led a team of 24 in implementing SOPs and training programs.
-  
+
 **Grupo Oka** – *Founder* | Huancayo, JU, Peru  
 _October 2018 – August 2023_  
 - Established a food retail business generating $300K in annual revenue with ~1,300 SKUs.
@@ -75,13 +80,14 @@ _October 2018 – August 2023_
 - Implemented procurement systems that reduced stockouts to under 5%.
 </section>
 
+<!-- Projects & Outside Experience Section -->
 <section id="projects" class="section-wrapper">
 ## Projects & Outside Experience
 
 **Design Process Improvement at Intralox** – *Engineering Apprentice | Generative AI* | Baltimore, MD, USA  
 _September 2023 – December 2023_  
 - Developed a generative AI process to increase design output for the R&D team.
-- Created process diagrams using Microsoft Visio and presented a proposal.
+- Created process diagrams using Microsoft Visio and presented the proposal.
 - Designed and tested a digital application utilizing the ChatGPT API.
 
 **Bed Assignment Process Improvement at Johns Hopkins Hospital** – *Operations Analyst Trainee* | Baltimore, MD, USA  
@@ -97,6 +103,7 @@ _August 2019 – December 2020_
 - Negotiated a partnership with Valvoline and secured a managing partnership deal.
 </section>
 
+<!-- Honors Section -->
 <section id="honors" class="section-wrapper">
 ## Honors & Prizes
 
@@ -104,6 +111,7 @@ _August 2019 – December 2020_
   *Issued by Universidad de Lima – July 2017*
 </section>
 
+<!-- Publications Section -->
 <section id="publications" class="section-wrapper">
 ## Publications & Manuscripts
 
@@ -111,6 +119,7 @@ _August 2019 – December 2020_
 - [Publication Title 2](https://doi.org/10.1000/example2) – Conference on Industrial Automation, 2022
 </section>
 
+<!-- Contact Section -->
 <section id="contact" class="section-wrapper">
 ## Contact
 
