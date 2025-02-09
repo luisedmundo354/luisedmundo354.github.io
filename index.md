@@ -3,7 +3,7 @@ layout: default
 title: "Luis Edmundo Brena Pantoja – Portfolio"
 ---
 
-<div class="markdown-body">
+<div class="markdown-body" markdown="1">
   <div class="portfolio-container">
 
     <!-- About Section -->
