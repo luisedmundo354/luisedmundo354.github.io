@@ -566,4 +566,19 @@ remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[K
 To https://github.com/luisedmundo354/luisedmundo354.github.io.git
    1c65181..f638e2b  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
-]0;~/personal_website[01;34m~/personal_website[00m$ git ad
+]0;~/personal_website[01;34m~/personal_website[00m$ git add .
+]0;~/personal_website[01;34m~/personal_website[00m$ git commit -m "Changes"
+[master 3d54a9c] Changes
+ 3 files changed, 35 insertions(+), 12 deletions(-)
+]0;~/personal_website[01;34m~/personal_website[00m$ git push -u origin master
+Enumerating objects: 15, done.
+Counting objects:   6% (1/15)Counting objects:  13% (2/15)Counting objects:  20% (3/15)Counting objects:  26% (4/15)Counting objects:  33% (5/15)Counting objects:  40% (6/15)Counting objects:  46% (7/15)Counting objects:  53% (8/15)Counting objects:  60% (9/15)Counting objects:  66% (10/15)Counting objects:  73% (11/15)Counting objects:  80% (12/15)Counting objects:  86% (13/15)Counting objects:  93% (14/15)Counting objects: 100% (15/15)Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  12% (1/8)Writing objects:  25% (2/8)Writing objects:  37% (3/8)Writing objects:  50% (4/8)Writing objects:  62% (5/8)Writing objects:  75% (6/8)Writing objects:  87% (7/8)Writing objects: 100% (8/8)Writing objects: 100% (8/8), 979 bytes | 979.00 KiB/s, done.
+Total 8 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/luisedmundo354/luisedmundo354.github.io.git
+   f638e2b..3d54a9c  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/personal_website[01;34m~/personal_website[00m$ g
