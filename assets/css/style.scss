@@ -16,36 +16,50 @@ ul li a {
   }
 }
 
+.profile-img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  border: 3px solid #002D72;
+  object-fit: cover; // Ensures image fills container
+}
+
 .social-links {
+  list-style: none;
+  padding: 0;
+  display: flex; // Apply flex to the UL
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+
   li {
+    // Remove all these from li
+    // display: flex;
+    // justify-content: center;
+    // margin: 20px 0;
+    // gap: 15px;
+    
+    // Keep these
     background: none !important;
     border: none !important;
-    -webkit-box-shadow: none !important;
     box-shadow: none !important;
     margin-bottom: 0;
     padding: 0;
     height: auto;
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-    gap: 15px;
-    
-    // Remove gradients
-    background-image: none !important;
-    
-    &:hover {
-      background: none !important;
-      color: #E0FF4F;
-    }
   }
-  
+
   a.social-icon {
     padding: 0;
     background-image: none;
-    color: #FFFFFF; // Your brand color
+    color: #FFFFFF;
     font-size: 22px;
     transition: color 0.3s;
+
+    &:hover {
+      color: #E0FF4F;
+      text-decoration: none;
+    }
   }
 }

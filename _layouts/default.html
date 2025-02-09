@@ -13,11 +13,12 @@
     <![endif]-->
     {% include head-custom.html %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="{{ '/_includes/favicon.ico' | relative_url }}" type="image/x-icon">
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Luis Brena" class="profile-img">
+        <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Luis Brena" class="profile-img">
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
 
