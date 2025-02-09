@@ -8,7 +8,7 @@ title: "Luis Edmundo Brena Pantoja – Portfolio"
 <section id="about" class="section-wrapper">
 ## About Me
 
-I’m **Luis Edmundo Brena Pantoja**, a Professional in Engineering Management based in Baltimore, MD. After a successful career in hospitality and retail, I’m now transitioning into the automation and consumer electronics industry. I bring a creative, organized, and solutions‐oriented approach with deep expertise in automation principles, manufacturing processes, and robotics.
+I’m **Luis Edmundo Brena Pantoja**, a Professional in Engineering Management based in Baltimore, MD. After a successful career in hospitality and retail, I’m now transitioning into the automation and consumer electronics industry. I bring a creative, organized, and solutions‑oriented approach with deep expertise in automation principles, manufacturing processes, and robotics.
 </section>
 
 <section id="skills" class="section-wrapper">
@@ -34,7 +34,7 @@ I’m **Luis Edmundo Brena Pantoja**, a Professional in Engineering Management b
 **Johns Hopkins University**  
 *Master's, Engineering Management* (Technical Track: Smart Product and Device Design)  
 _August 2023 – May 2025_ • GPA: 3.65  
-Relevant coursework: Artificial Intelligence, Algorithms for Sensor-based Robotics, Reinforcement Learning, Artificial Agents (NLP), Customer Discovery, Finance, Strategic Planning.
+Relevant coursework: Artificial Intelligence, Algorithms for Sensor‑based Robotics, Reinforcement Learning, Artificial Agents (NLP), Customer Discovery, Finance, Strategic Planning.
 
 **Universidad de Lima**  
 *Bachelor's, Industrial Engineering*  
@@ -65,11 +65,11 @@ _August 2018 – August 2023_
 - Launched a Revenue Management System that boosted revenue per available room.
 - Achieved a 6% increase in Gross Margin and a 10% improvement in Net Profit Margin.
 - Secured a regional bid during the COVID-19 pandemic, resulting in a 50% revenue increase.
-- Led a team of 24 in implementing standard operating procedures and training.
+- Led a team of 24 in implementing SOPs and training programs.
   
 **Grupo Oka** – *Founder* | Huancayo, JU, Peru  
 _October 2018 – August 2023_  
-- Established a food retail business with $300K annual revenue and managed ~1,300 SKUs.
+- Established a food retail business generating $300K in annual revenue with ~1,300 SKUs.
 - Achieved the city’s highest sales in the Specialty Food category.
 - Secured $200K in financing for initial business development.
 - Implemented procurement systems that reduced stockouts to under 5%.
@@ -81,7 +81,7 @@ _October 2018 – August 2023_
 **Design Process Improvement at Intralox** – *Engineering Apprentice | Generative AI* | Baltimore, MD, USA  
 _September 2023 – December 2023_  
 - Developed a generative AI process to increase design output for the R&D team.
-- Created process diagrams using Microsoft Visio and presented the proposal.
+- Created process diagrams using Microsoft Visio and presented a proposal.
 - Designed and tested a digital application utilizing the ChatGPT API.
 
 **Bed Assignment Process Improvement at Johns Hopkins Hospital** – *Operations Analyst Trainee* | Baltimore, MD, USA  
@@ -93,7 +93,7 @@ _August 2023 – September 2023_
 **Operational Restructuring at Centrocorp – Honda Motor Official Dealer** – *Operational Restructuring Manager* | Huancayo, JU, Peru  
 _August 2019 – December 2020_  
 - Increased maintenance unit revenue by 15% with new service additions.
-- Generated $25K in revenue through efficient liquidation of dead stock.
+- Generated $25K through efficient liquidation of dead stock.
 - Negotiated a partnership with Valvoline and secured a managing partnership deal.
 </section>
 

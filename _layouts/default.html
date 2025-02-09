@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
     <header class="site-header">
-      <div class="container">
-        <!-- Profile section with your photo -->
+      <div class="header-container">
+        <!-- Profile Section -->
         <div class="profile">
-          <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Luis Brena" class="profile-photo" />
-          <h1>{{ site.title }}</h1>
-          <p class="tagline">{{ site.description }}</p>
+          <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Luis Brena" class="profile-photo">
+          <h1 class="site-title">{{ site.title }}</h1>
+          <p class="site-description">{{ site.description }}</p>
         </div>
-        <!-- Navigation using section IDs -->
+        <!-- Navigation -->
         <nav class="site-nav">
           <ul>
             <li><a href="#about">About</a></li>
@@ -37,8 +37,8 @@
     </main>
 
     <footer class="site-footer">
-      <div class="container">
-        <section id="contact">
+      <div class="footer-container">
+        <section id="contact" class="footer-contact">
           <h2>Contact</h2>
           <ul>
             <li>Email: <a href="mailto:lbrenap1@jhu.edu">lbrenap1@jhu.edu</a></li>

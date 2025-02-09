@@ -3,38 +3,92 @@
 
 @import "{{ site.theme }}";
 
-// Custom overrides
+// Container styling for responsiveness and margins
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
 
+// Section wrapper for vertical spacing between sections
+.section-wrapper {
+  margin-bottom: 60px;
+  padding: 0 15px;
+}
+
+// Profile styles for header
 .profile {
   text-align: center;
   margin-bottom: 20px;
 }
-
 .profile-photo {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #00ff99;  /* Neon green accent */
+  border: 3px solid #00ff99; // Neon green accent
   margin-bottom: 10px;
 }
 
+// Navigation styling
 .site-nav ul {
   list-style: none;
   text-align: center;
   padding: 0;
+  margin: 20px 0;
 }
-
 .site-nav ul li {
   display: inline-block;
   margin: 0 10px;
 }
-
 .site-nav ul li a {
   color: inherit;
   text-decoration: none;
   transition: color 0.3s;
 }
-
 .site-nav ul li a:hover {
   color: #00ff99;
+}
+
+// Footer styling (optional enhancements)
+.footer-container {
+  text-align: center;
+  padding: 20px;
+}
+.footer-contact ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.footer-contact ul li {
+  margin-bottom: 5px;
+}
+.footer-contact a {
+  color: #00ff99;
+  text-decoration: none;
+}
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+  .section-wrapper {
+    margin-bottom: 40px;
+    padding: 0 10px;
+  }
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+  }
+  .site-nav ul li {
+    margin: 0 5px;
+  }
+  header .site-header, footer .site-footer {
+    padding: 10px 0;
+  }
 }
