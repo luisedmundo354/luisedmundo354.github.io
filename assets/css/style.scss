@@ -17,20 +17,35 @@ ul li a {
 }
 
 .social-links {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px; // Adjust spacing
-  margin-top: 20px;
-
-  .social-icon {
-    color: #002D72; // Your brand color
-    font-size: 24px;
-    transition: color 0.3s;
-
+  li {
+    background: none !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    margin-bottom: 0;
+    padding: 0;
+    height: auto;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 15px;
+    
+    // Remove gradients
+    background-image: none !important;
+    
     &:hover {
-      color: #E0FF4F; // Accent color
+      background: none !important;
+      color: #E0FF4F;
     }
+  }
+  
+  a.social-icon {
+    padding: 0;
+    background-image: none;
+    color: #FFFFFF; // Your brand color
+    font-size: 22px;
+    transition: color 0.3s;
   }
 }
