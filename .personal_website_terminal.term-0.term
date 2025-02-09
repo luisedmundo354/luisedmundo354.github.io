@@ -597,4 +597,19 @@ remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[K
 To https://github.com/luisedmundo354/luisedmundo354.github.io.git
    3d54a9c..2c74830  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
-]0;~/personal_website[01;34m~/personal_website[00m$ g
+]0;~/personal_website[01;34m~/personal_website[00m$ git add .
+]0;~/personal_website[01;34m~/personal_website[00m$ git commit - [Km "Fi[K[Kbotttons fixed"
+[master 6ac76f8] botttons fixed
+ 2 files changed, 17 insertions(+), 1 deletion(-)
+]0;~/personal_website[01;34m~/personal_website[00m$ git push -u o[Korigin master
+Enumerating objects: 11, done.
+Counting objects:   9% (1/11)Counting objects:  18% (2/11)Counting objects:  27% (3/11)Counting objects:  36% (4/11)Counting objects:  45% (5/11)Counting objects:  54% (6/11)Counting objects:  63% (7/11)Counting objects:  72% (8/11)Counting objects:  81% (9/11)Counting objects:  90% (10/11)Counting objects: 100% (11/11)Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 685 bytes | 685.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/luisedmundo354/luisedmundo354.github.io.git
+   2c74830..6ac76f8  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/personal_website[01;34m~/personal_website[00m$ [K]0;~/personal_website[01;34m~/personal_website[00m$ [K]0;~/personal_website[01;34m~/personal_website[00m$ g

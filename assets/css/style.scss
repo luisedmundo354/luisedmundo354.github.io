@@ -16,7 +16,21 @@ ul li a {
   }
 }
 
-// Specific style for download buttons (if needed)
-.download .buttons {
-  display: block; // Override any existing inline styles
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; // Adjust spacing
+  margin-top: 20px;
+
+  .social-icon {
+    color: #002D72; // Your brand color
+    font-size: 24px;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #E0FF4F; // Accent color
+    }
+  }
 }

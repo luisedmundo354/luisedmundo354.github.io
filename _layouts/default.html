@@ -12,6 +12,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
   <body>
     <div class="wrapper">
@@ -23,7 +24,7 @@
         <li><a href="#education">Education</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#publications">Manuscripts</a></li>
+        <li><a href="#publications"> Manuscripts</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
 
@@ -32,10 +33,24 @@
         {% endif %}
 
         {% if site.github.is_user_page %}
-          <ul>
-            <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
+          <ul class="social-links">
+            <li>
+              <a href="https://linkedin.com/in/luis-brena" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="{{ site.github.owner_url }}" target="_blank" class="social-icon">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="/assets/resume.pdf" download class="social-icon">
+                <i class="fas fa-file-download"></i>
+              </a>
+            </li>
           </ul>
-        {% endif %}
+      {% endif %}
       </header>
 
       <section>
