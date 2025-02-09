@@ -403,4 +403,23 @@ Changes not staged for commit:
 	[31mmodified:   ../index.md[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/personal_website/_includes[01;34m~/personal_website/_includes[00m$ git[K[K[K
+]0;~/personal_website/_includes[01;34m~/personal_website/_includes[00m$ git[K[K[Kcd ,,
+bash: cd: ,,: No such file or directory
+]0;~/personal_website/_includes[01;34m~/personal_website/_includes[00m$ git add .[K[K[K[K[K[K[K[K[Kcd ..
+]0;~/personal_website[01;34m~/personal_website[00m$ git add .
+]0;~/personal_website[01;34m~/personal_website[00m$ git commit -m "new index"
+[master 29f1578] new index
+ 2 files changed, 168 insertions(+), 136 deletions(-)
+ rewrite index.md (98%)
+]0;~/personal_website[01;34m~/personal_website[00m$ git push -u origin master
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 1.47 KiB | 1.47 MiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/luisedmundo354/luisedmundo354.github.io.git
+   7e3e660..29f1578  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/personal_website[01;34m~/personal_website[00m$ g
