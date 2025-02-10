@@ -85,17 +85,13 @@ Learning Approach to Playing NMBR 9](assets/rl.pdf) – Reinforcement Learning P
 ## Skills {#skills}
 
 **Technical:**  
-- ROS2, Python, MATLAB, MS Excel, SQL  
-- Tensor, Pytorch, CUDA, Tensorflow  
+- ROS2, Python, MATLAB, MS Excel, SQL
+- TensorFlow, Pytorch, CUDA
 - HTML/CSS, Ruby on Rails, SolidWorks, PLC  
-
-**Business & Analytical:**  
-- Business Analytics, Operations Research  
-- Product Management, Supply Chain Management, Lean Six Sigma  
 
 **Tools & Languages:**  
 - Excel, Visio, Power BI, Minitab, CAD  
-- Fluent in Spanish and English
+- Fluent in English and Spanish
 
 ## Contact {#contact}
 
