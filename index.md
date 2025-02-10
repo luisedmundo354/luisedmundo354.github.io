@@ -5,34 +5,21 @@ title: "Luis Edmundo Brena Pantoja – Portfolio"
 
 ## About Me {#about}
 
-I’m **Luis Edmundo Brena Pantoja**, a Professional in Engineering Management based in Baltimore, MD. After a successful career in hospitality and retail, I’m now transitioning into the automation and consumer electronics industry. I bring a creative, organized, and solutions‑oriented approach with deep expertise in automation principles, manufacturing processes, and robotics.
+I am currently pursuing my Master's degree in Engineering Management at Johns Hopkins University under the supervision of Professor Mahyar Fazlyab. In addition to my studies, I am also working on my startup, Mentat, and serving as an event manager at the Peabody Institute.
 
-## Skills {#skills}
-
-**Technical:**  
-- ROS2, Python, MATLAB, MS Excel, SQL  
-- Computer Vision, Pytorch, CUDA, Tensorflow  
-- HTML/CSS, Ruby on Rails, SolidWorks, PLC  
-
-**Business & Analytical:**  
-- Business Analytics, Operations Research  
-- Product Management, Supply Chain Management, Lean Six Sigma  
-
-**Tools & Languages:**  
-- Excel/Numbers/Sheets, Visio, Power BI, Minitab, CAD  
-- Fluent in Spanish and English
+My research interests include reinforcement learning, natural language processing, and process automation. I aim to integrate digital and physical systems in human tasks that have yet to be improved or automated. Some of these complex tasks, particularly challenging for computers, involve information recording in the healthcare field, legal taxation, and administrative processes.
 
 ## Education {#education}
 
 **Johns Hopkins University**  
 *Master's, Engineering Management* (Technical Track: Smart Product and Device Design)  
 _August 2023 – May 2025_ • GPA: 3.65  
-Relevant coursework: Artificial Intelligence, Algorithms for Sensor‑based Robotics, Reinforcement Learning, Artificial Agents (NLP), Customer Discovery, Finance, Strategic Planning.
+Relevant coursework: Artificial Intelligence, Algorithms for Sensor‑based Robotics, Reinforcement Learning, Artificial Agents, Machine Intelligence on Embedded Systems, Customer Discovery, Finance, Strategic Planning
 
 **Universidad de Lima**  
 *Bachelor's, Industrial Engineering*  
 _March 2013 – February 2018_ • GPA: 4  
-Relevant coursework: Marketing, Process Engineering, Industrial Automation, Process Analysis, Electrical Engineering, Industrial Technology, Operations Research.
+Relevant coursework: Process Engineering, Industrial Automation, Process Analysis, Electrical Engineering, Industrial Technology, Operations Research, Marketing
 
 ## Certifications {#certifications}
 
@@ -44,24 +31,24 @@ Relevant coursework: Marketing, Process Engineering, Industrial Automation, Proc
 
 **Peabody Institute of The Johns Hopkins University** – *Event Manager* | Baltimore, MD, USA  
 _July 2024 – Present_  
-- Applied Lean Six Sigma techniques to reduce picking time and ensure proper handling.
-- Implemented statistical tracking and cycle counting to monitor inventory waste.
-- Reorganized inventory by restructuring database attributes.
-- Assisted in organizing Orientation Week for 300 students.
+- Applied Lean Six Sigma techniques to reduce picking time and ensure proper handling
+- Implemented cycle counting to monitor inventory waste
+- Reorganized inventory by restructuring database attributes
+- Assisted in organizing Orientation Week for 300 students
 
 **CHC – Best Western Franchisee** – *Hotel Manager – Hospitality* | Huancayo, JU, Peru  
 _August 2018 – August 2023_  
-- Launched a Revenue Management System that boosted revenue per available room.
-- Achieved a 6% increase in Gross Margin and a 10% improvement in Net Profit Margin.
+- Launched a Revenue Management System that boosted revenue per available room
+- Achieved a 6% increase in Gross Margin and a 10% improvement in Net Profit Margin
 - Secured a regional bid during the COVID-19 pandemic, resulting in a 50% revenue increase.
-- Led a team of 24 in implementing SOPs and training programs.
+- Led a team of 24 in implementing SOPs and training programs
 
 **Grupo Oka** – *Founder* | Huancayo, JU, Peru  
 _October 2018 – August 2023_  
-- Established a food retail business generating $300K in annual revenue with ~1,300 SKUs.
-- Achieved the city’s highest sales in the Specialty Food category.
-- Secured $200K in financing for initial business development.
-- Implemented procurement systems that reduced stockouts to under 5%.
+- Established a food retail business generating $300K in annual revenue with ~1,300 SKUs
+- Achieved the city’s highest sales in the Specialty Food category
+- Secured $200K in financing for initial business development
+- Implemented procurement systems that reduced stockouts to under 5%
 
 ## Projects & Outside Experience {#projects}
 
@@ -88,10 +75,27 @@ _August 2019 – December 2020_
 - **Corporate Governance Essay Contest Winner**  
   *Issued by Universidad de Lima – July 2017*
 
-## Publications & Manuscripts {#publications}
+## Manuscripts {#manuscripts}
 
-- [Publication Title 1](https://doi.org/10.1000/example1) – Journal of Automation, 2023  
-- [Publication Title 2](https://doi.org/10.1000/example2) – Conference on Industrial Automation, 2022
+- [Warehouse Layout Optimization Using PRM and the Capacity
+ Scaling Algorithm](assets/optimization.pdf) – Network Models Project
+- [A Monte-Carlo Tree Search Reinforcement
+Learning Approach to Playing NMBR 9](assets/rl.pdf) – Reinforcement Learning Project
+
+## Skills {#skills}
+
+**Technical:**  
+- ROS2, Python, MATLAB, MS Excel, SQL  
+- Tensor, Pytorch, CUDA, Tensorflow  
+- HTML/CSS, Ruby on Rails, SolidWorks, PLC  
+
+**Business & Analytical:**  
+- Business Analytics, Operations Research  
+- Product Management, Supply Chain Management, Lean Six Sigma  
+
+**Tools & Languages:**  
+- Excel, Visio, Power BI, Minitab, CAD  
+- Fluent in Spanish and English
 
 ## Contact {#contact}
 
