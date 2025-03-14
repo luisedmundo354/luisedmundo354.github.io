@@ -57,7 +57,7 @@ _October 2018 – August 2023_
 **Mentat** – *Co-founder | Baltimore, MD, USA  
 _September 2024 – Present_
 
-- Fall 2025 Spark Accelerator participant at The Pava Marie LaPere Center for Entrepreneurship.
+- Spring 2025 Spark Accelerator participant at The Pava Marie LaPere Center for Entrepreneurship.
 
 - Actively contributed to the open source Mentat repository by developing machine learning models for NLP. Focus areas included information extraction, text generation, content rewriting, and beamforming research for microphone input.
 
@@ -91,6 +91,7 @@ _August 2019 – December 2020_
 
 ## Manuscripts {#manuscripts}
 
+- Ongoing: Detecting Arguments in US Tax Court Decisions on Corporate Taxation Cases
 - [Warehouse Layout Optimization Using PRM and the Capacity
  Scaling Algorithm](assets/optimization.pdf) – Network Models Project
 - [A Monte-Carlo Tree Search Reinforcement
@@ -100,13 +101,12 @@ Learning Approach to Playing NMBR 9](assets/rl.pdf) – Reinforcement Learning P
 
 **Technical:**  
 
-- ROS2, Python, MATLAB, MS Excel, SQL
+- ROS2, Python, MATLAB, MS Excel, SQL, C, C++
 - TensorFlow, Pytorch, CUDA
-- HTML/CSS, Ruby on Rails, SolidWorks, PLC  
 
 **Tools & Languages:**  
 
-- Excel, Visio, Power BI, Minitab, CAD  
+- Excel, Visio, Power BI, Minitab, CAD, SolidWorks
 - Fluent in English and Spanish
 
 ## Contact {#contact}
