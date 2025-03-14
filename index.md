@@ -54,13 +54,11 @@ _October 2018 – August 2023_
 
 ## Projects & Outside Experience {#projects}
 
-**Mentat** – *Co-founder | Baltimore, MD, USA  
+**Mentat** – *Co-founder* | Baltimore, MD, USA  
 _September 2024 – Present_
 
 - Spring 2025 Spark Accelerator participant at The Pava Marie LaPere Center for Entrepreneurship.
-
 - Actively contributed to the open source Mentat repository by developing machine learning models for NLP. Focus areas included information extraction, text generation, content rewriting, and beamforming research for microphone input.
-
 - Repository: https://github.com/luisedmundo354/mentat
 
 **Design Process Improvement at Intralox** – *Engineering Apprentice | Generative AI* | Baltimore, MD, USA  
