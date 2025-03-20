@@ -84,6 +84,8 @@ _August 2019 – December 2020_
 
 ## Honors & Prizes {#honors}
 
+- **Award for Excellence in Hospitality Operations Winner**  
+  *Issued by El Tambo Municipal Government – October 2022*
 - **Corporate Governance Essay Contest Winner**  
   *Issued by Universidad de Lima – July 2017*
 
