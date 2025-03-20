@@ -6,7 +6,7 @@ title: "Luis Edmundo Brena Pantoja – Portfolio"
 
 I am currently pursuing my Master's degree in Engineering Management at Johns Hopkins University under the supervision of Professor Mahyar Fazlyab. Alongside my studies, I work on an independent project called [Mentat](https://github.com/luisedmundo354/mentat) and serve as an event manager at the Peabody Institute.
 
-My research interests include reinforcement learning, natural language processing, and process automation. I aim to integrate digital and physical systems in human tasks that have yet to be improved or automated. Some of these complex tasks, particularly challenging for computers, involve patient information recording in the healthcare field, legal taxation, and administrative processes. My current research project is titled "Detecting Arguments in US Tax Court Decisions on Corporate Taxation Cases."
+My research interests include reinforcement learning, natural language processing, and process automation. I aim to merge digital and physical systems to improve tasks that have not yet been automated, such as recording patient information in healthcare, handling legal taxation, and managing administrative processes. My current research project is titled "Detecting Arguments in US Tax Court Decisions on Corporate Taxation Cases."
 
 ## Education {#education}
 
