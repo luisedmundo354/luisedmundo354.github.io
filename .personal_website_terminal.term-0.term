@@ -819,4 +819,136 @@ remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[K
 To https://github.com/luisedmundo354/luisedmundo354.github.io.git
    1be3a6a..d30162c  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
-]0;~/personal_website[01;34m~/personal_website[00m$ g
+]0;~/personal_website[01;34m~/personal_website[00m$ git add .
+]0;~/personal_website[01;34m~/personal_website[00m$ git commi [Kt -m "remove spaces"
+[master 43befee] remove spaces
+ 2 files changed, 17 insertions(+), 4 deletions(-)
+]0;~/personal_website[01;34m~/personal_website[00m$ git push -u origin mass[Kte4r[K[Kr
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 489 bytes | 489.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/luisedmundo354/luisedmundo354.github.io.git
+   d30162c..43befee  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/personal_website[01;34m~/personal_website[00m$ ]0;~/personal_website[01;34m~/personal_website[00m$ ]0;~/personal_website[01;34m~/personal_website[00m$ ]0;~/personal_website[01;34m~/personal_website[00m$ ]0;~/personal_website[01;34m~/personal_website[00m$ ]0;~/personal_website[01;34m~/personal_website[00m$ [K]0;~/personal_website[01;34m~/personal_website[00m$ ls
+_config.yml  [0m[01;34m_includes[0m  [01;34m_layouts[0m  [01;34massets[0m  index.md  personal_website_terminal.term
+]0;~/personal_website[01;34m~/personal_website[00m$ cd ..
+]0;~[01;34m~[00m$ ls
+ [0m[01;31m2024-06-09-232038.zip[0m  'Lab 2 Problem.pdf'      [01;34margument_mining[0m           [01;34mgrants[0m                   [01;34minventory[0m           [01;34mmosek[0m                     [01;34mpersonal_website[0m         [01;34mtexmf[0m
+ [01;34mAI[0m                      [01;34mML[0m                      assignment1_seminar.pdf   [01;34mgrowth[0m                   [01;34mje[0m                  navigationtest.x11        plan.txt                 [01;34mtransfer_pricing[0m
+[01;34m'Customer discovery'[0m     [01;34mNetwork-models[0m          assignment1_seminar.tex   growth.md                layoutcalcu.pdf     negotiation_mixed.ipynb   [01;34mpresentations[0m            [01;34munu_hotel[0m
+ [01;34mEntrepreneurship[0m       [01;34m'Portfolio Luis Brena'[0m   calendargen.py            initialterm.term         layoutcalcuco.pdf   nohup.out                 [01;34mreadings-notes[0m           [01;34mutilities[0m
+ [01;34mEnvs[0m                   [01;34m'Robot devices'[0m          [01;34mdetecting_arguments[0m       [01;34minstruments[0m              [01;34mleadingchange[0m       [01;34moptimization[0m              [01;34mreinforcement_learning[0m
+ [01;34mGridWorld[0m               [01;34malgorithms[0m              estado.pdf                [01;34mintelligent_agents[0m       matlabINF.sty       pdfsize_convert.py        [01;34msbr_workspace[0m
+'Lab 2 Problem.ipynb'    [01;34manaconda3[0m               [01;34mfinance[0m                   [01;34mintership-applications[0m   mcode.sty           [01;34mpeabody[0m                   [01;34mtechnical_project[0m
+]0;~[01;34m~[00m$ cd [K[K[Kworkon ai_eg[K[Kagents
+ls(ai_agents) ]0;~[01;34m~[00m$ ls
+ [0m[01;31m2024-06-09-232038.zip[0m  'Lab 2 Problem.pdf'      [01;34margument_mining[0m           [01;34mgrants[0m                   [01;34minventory[0m           [01;34mmosek[0m                     [01;34mpersonal_website[0m         [01;34mtexmf[0m
+ [01;34mAI[0m                      [01;34mML[0m                      assignment1_seminar.pdf   [01;34mgrowth[0m                   [01;34mje[0m                  navigationtest.x11        plan.txt                 [01;34mtransfer_pricing[0m
+[01;34m'Customer discovery'[0m     [01;34mNetwork-models[0m          assignment1_seminar.tex   growth.md                layoutcalcu.pdf     negotiation_mixed.ipynb   [01;34mpresentations[0m            [01;34munu_hotel[0m
+ [01;34mEntrepreneurship[0m       [01;34m'Portfolio Luis Brena'[0m   calendargen.py            initialterm.term         layoutcalcuco.pdf   nohup.out                 [01;34mreadings-notes[0m           [01;34mutilities[0m
+ [01;34mEnvs[0m                   [01;34m'Robot devices'[0m          [01;34mdetecting_arguments[0m       [01;34minstruments[0m              [01;34mleadingchange[0m       [01;34moptimization[0m              [01;34mreinforcement_learning[0m
+ [01;34mGridWorld[0m               [01;34malgorithms[0m              estado.pdf                [01;34mintelligent_agents[0m       matlabINF.sty       pdfsize_convert.py        [01;34msbr_workspace[0m
+'Lab 2 Problem.ipynb'    [01;34manaconda3[0m               [01;34mfinance[0m                   [01;34mintership-applications[0m   mcode.sty           [01;34mpeabody[0m                   [01;34mtechnical_project[0m
+(ai_agents) ]0;~[01;34m~[00m$ cd argument[K[K[K[K[K[K[K[K[K[K[Kdetecting_[K[K[K[K[K[K[K[K[K[Kcd detecting_argumn[Kents
+(ai_agents) ]0;~/detecting_arguments[01;34m~/detecting_arguments[00m$ l
+bash: l: command not found
+(ai_agents) ]0;~/detecting_arguments[01;34m~/detecting_arguments[00m$ sl[K[Kls
+[0m[01;34m__pycache__[0m          [01;34mcorporate_tax_cases_json[0m  information_extraction.py  [01;34mpdf_files[0m         pricing_terminal.term  [01;34mrevised_cases[0m        tags.json
+azure_example.py     [01;34mcorporate_tax_cases_txt[0m   output.json                [01;34mprecedents[0m        [01;34mprocessed_cases_json[0m   [01;34mrtf_files[0m
+[01;34mcorporate_tax_cases[0m  data_preparation.ipynb    parser_rtf.ipynb           [01;34mprecedents_facts[0m  [01;34mprovisions[0m             rtf_manipulation.py
+(ai_agents) ]0;~/detecting_arguments[01;34m~/detecting_arguments[00m$ git add .
+(ai_agents) ]0;~/detecting_arguments[01;34m~/detecting_arguments[00m$ git ao[K[Kcommit -m "a[Knew cases added and converted ino[Kto text[K[K[Ktx[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kand converted into txt"
+[master d80b024] new cases added and converted into txt
+ 77 files changed, 44901 insertions(+), 603 deletions(-)
+ rewrite .data_preparation.ipynb.sage-jupyter2 (97%)
+ create mode 100644 corporate_tax_cases_json/Bleily And Collishaw Inc v Commissioner of Internal Revenue.rtf.json
+ create mode 100644 corporate_tax_cases_json/Blum v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Charfoos v C I R.rtf.json
+ create mode 100644 corporate_tax_cases_json/Charles Schwab Corp and Subsidiaries v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Compaq Computer Corp and Subsidiaries v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/DHL Corp And Subsidiaries v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Deitch v Commissioner of Internal Revenue.rtf.json
+ create mode 100644 corporate_tax_cases_json/Donlon I Development Corp v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/FX Systems Corp v Commissioner of Internal Revenue.rtf.json
+ create mode 100644 corporate_tax_cases_json/Federal Home Loan Mortg Corp v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Garber Industries Holding Co Inc v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Gerdau Macsteel Inc v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Hewlett-Packard Co v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Hillsboro National Bank v Commissioner of Internal Revenue.rtf.json
+ create mode 100644 corporate_tax_cases_json/JE Seagram Corp v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Jelle v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Kenyatta Corp v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Lessinger v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Litton Industries Inc v Commissioner of Internal Revenue.rtf.json
+ create mode 100644 corporate_tax_cases_json/Lockwood v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Markell Co Inc v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Menard Inc v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Meredith Corpand Subsidiaries v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/PepsiCo Puerto Rico Inc v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Ralphs Grocery Co v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Saba Partnership v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Santa Monica Pictures LLC v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Short Stop Electric Inc v Commissioner of Internal Revenue.rtf.json
+ create mode 100644 corporate_tax_cases_json/Snow Mfg Co v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/South Tulsa Pathology Laboratory Inc v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/State Farm Road Corp v Commissioner of Internal Revenue.rtf.json
+ create mode 100644 corporate_tax_cases_json/Technalysis Corp v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/The Coca-Cola Company And Subsidiaries v Commissioner of Internal Revenue.rtf.json
+ create mode 100644 corporate_tax_cases_json/Thompson Engineering Company Inc v Commissioner of Internal Revenue.rtf.json
+ create mode 100644 corporate_tax_cases_json/Thor Energy Resources and Subsidiares v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_json/Winn-Dixie Stores Inc v CIR.rtf.json
+ create mode 100644 corporate_tax_cases_txt/Bleily And Collishaw Inc v Commissioner of Internal Revenue.txt
+ create mode 100644 corporate_tax_cases_txt/Blum v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Charfoos v C I R.txt
+ create mode 100644 corporate_tax_cases_txt/Charles Schwab Corp and Subsidiaries v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Compaq Computer Corp and Subsidiaries v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/DHL Corp And Subsidiaries v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Deitch v Commissioner of Internal Revenue.txt
+ create mode 100644 corporate_tax_cases_txt/Donlon I Development Corp v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/FX Systems Corp v Commissioner of Internal Revenue.txt
+ create mode 100644 corporate_tax_cases_txt/Federal Home Loan Mortg Corp v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Garber Industries Holding Co Inc v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Gerdau Macsteel Inc v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Hewlett-Packard Co v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Hillsboro National Bank v Commissioner of Internal Revenue.txt
+ create mode 100644 corporate_tax_cases_txt/JE Seagram Corp v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Jelle v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Kenyatta Corp v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Lessinger v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Litton Industries Inc v Commissioner of Internal Revenue.txt
+ create mode 100644 corporate_tax_cases_txt/Lockwood v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Markell Co Inc v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Menard Inc v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Meredith Corpand Subsidiaries v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/PepsiCo Puerto Rico Inc v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Ralphs Grocery Co v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Saba Partnership v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Santa Monica Pictures LLC v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Short Stop Electric Inc v Commissioner of Internal Revenue.txt
+ create mode 100644 corporate_tax_cases_txt/Snow Mfg Co v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/South Tulsa Pathology Laboratory Inc v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/State Farm Road Corp v Commissioner of Internal Revenue.txt
+ create mode 100644 corporate_tax_cases_txt/Technalysis Corp v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/The Coca-Cola Company And Subsidiaries v Commissioner of Internal Revenue.txt
+ create mode 100644 corporate_tax_cases_txt/Thompson Engineering Company Inc v Commissioner of Internal Revenue.txt
+ create mode 100644 corporate_tax_cases_txt/Thor Energy Resources and Subsidiares v CIR.txt
+ create mode 100644 corporate_tax_cases_txt/Winn-Dixie Stores Inc v CIR.txt
+ rewrite parser_rtf.ipynb (94%)
+ rewrite rtf_manipulation.py (84%)
+(ai_agents) ]0;~/detecting_arguments[01;34m~/detecting_arguments[00m$ git push -u origin master
+Enumerating objects: 87, done.
+Counting objects:   1% (1/87)Counting objects:   2% (2/87)Counting objects:   3% (3/87)Counting objects:   4% (4/87)Counting objects:   5% (5/87)Counting objects:   6% (6/87)Counting objects:   8% (7/87)Counting objects:   9% (8/87)Counting objects:  10% (9/87)Counting objects:  11% (10/87)Counting objects:  12% (11/87)Counting objects:  13% (12/87)Counting objects:  14% (13/87)Counting objects:  16% (14/87)Counting objects:  17% (15/87)Counting objects:  18% (16/87)Counting objects:  19% (17/87)Counting objects:  20% (18/87)Counting objects:  21% (19/87)Counting objects:  22% (20/87)Counting objects:  24% (21/87)Counting objects:  25% (22/87)Counting objects:  26% (23/87)Counting objects:  27% (24/87)Counting objects:  28% (25/87)Counting objects:  29% (26/87)Counting objects:  31% (27/87)Counting objects:  32% (28/87)Counting objects:  33% (29/87)Counting objects:  34% (30/87)Counting objects:  35% (31/87)Counting objects:  36% (32/87)Counting objects:  37% (33/87)Counting objects:  39% (34/87)Counting objects:  40% (35/87)Counting objects:  41% (36/87)Counting objects:  42% (37/87)Counting objects:  43% (38/87)Counting objects:  44% (39/87)Counting objects:  45% (40/87)Counting objects:  47% (41/87)Counting objects:  48% (42/87)Counting objects:  49% (43/87)Counting objects:  50% (44/87)Counting objects:  51% (45/87)Counting objects:  52% (46/87)Counting objects:  54% (47/87)Counting objects:  55% (48/87)Counting objects:  56% (49/87)Counting objects:  57% (50/87)Counting objects:  58% (51/87)Counting objects:  59% (52/87)Counting objects:  60% (53/87)Counting objects:  62% (54/87)Counting objects:  63% (55/87)Counting objects:  64% (56/87)Counting objects:  65% (57/87)Counting objects:  66% (58/87)Counting objects:  67% (59/87)Counting objects:  68% (60/87)Counting objects:  70% (61/87)Counting objects:  71% (62/87)Counting objects:  72% (63/87)Counting objects:  73% (64/87)Counting objects:  74% (65/87)Counting objects:  75% (66/87)Counting objects:  77% (67/87)Counting objects:  78% (68/87)Counting objects:  79% (69/87)Counting objects:  80% (70/87)Counting objects:  81% (71/87)Counting objects:  82% (72/87)Counting objects:  83% (73/87)Counting objects:  85% (74/87)Counting objects:  86% (75/87)Counting objects:  87% (76/87)Counting objects:  88% (77/87)Counting objects:  89% (78/87)Counting objects:  90% (79/87)Counting objects:  91% (80/87)Counting objects:  93% (81/87)Counting objects:  94% (82/87)Counting objects:  95% (83/87)Counting objects:  96% (84/87)Counting objects:  97% (85/87)Counting objects:  98% (86/87)Counting objects: 100% (87/87)Counting objects: 100% (87/87), done.
+Delta compression using up to 4 threads
+Compressing objects:   1% (1/81)Compressing objects:   2% (2/81)Compressing objects:   3% (3/81)Compressing objects:   4% (4/81)Compressing objects:   6% (5/81)Compressing objects:   7% (6/81)Compressing objects:   8% (7/81)Compressing objects:   9% (8/81)Compressing objects:  11% (9/81)Compressing objects:  12% (10/81)Compressing objects:  13% (11/81)Compressing objects:  14% (12/81)Compressing objects:  16% (13/81)Compressing objects:  17% (14/81)Compressing objects:  18% (15/81)Compressing objects:  19% (16/81)Compressing objects:  20% (17/81)Compressing objects:  22% (18/81)Compressing objects:  23% (19/81)Compressing objects:  24% (20/81)Compressing objects:  25% (21/81)Compressing objects:  27% (22/81)Compressing objects:  28% (23/81)Compressing objects:  29% (24/81)Compressing objects:  30% (25/81)Compressing objects:  32% (26/81)Compressing objects:  33% (27/81)Compressing objects:  34% (28/81)Compressing objects:  35% (29/81)Compressing objects:  37% (30/81)Compressing objects:  38% (31/81)Compressing objects:  39% (32/81)Compressing objects:  40% (33/81)Compressing objects:  41% (34/81)Compressing objects:  43% (35/81)Compressing objects:  44% (36/81)Compressing objects:  45% (37/81)Compressing objects:  46% (38/81)Compressing objects:  48% (39/81)Compressing objects:  49% (40/81)Compressing objects:  50% (41/81)Compressing objects:  51% (42/81)Compressing objects:  53% (43/81)Compressing objects:  54% (44/81)Compressing objects:  55% (45/81)Compressing objects:  56% (46/81)Compressing objects:  58% (47/81)Compressing objects:  59% (48/81)Compressing objects:  60% (49/81)Compressing objects:  61% (50/81)Compressing objects:  62% (51/81)Compressing objects:  64% (52/81)Compressing objects:  65% (53/81)Compressing objects:  66% (54/81)Compressing objects:  67% (55/81)Compressing objects:  69% (56/81)Compressing objects:  70% (57/81)Compressing objects:  71% (58/81)Compressing objects:  72% (59/81)Compressing objects:  74% (60/81)Compressing objects:  75% (61/81)Compressing objects:  76% (62/81)Compressing objects:  77% (63/81)Compressing objects:  79% (64/81)Compressing objects:  80% (65/81)Compressing objects:  81% (66/81)Compressing objects:  82% (67/81)Compressing objects:  83% (68/81)Compressing objects:  85% (69/81)Compressing objects:  86% (70/81)Compressing objects:  87% (71/81)Compressing objects:  88% (72/81)Compressing objects:  90% (73/81)Compressing objects:  91% (74/81)Compressing objects:  92% (75/81)Compressing objects:  93% (76/81)Compressing objects:  95% (77/81)Compressing objects:  96% (78/81)Compressing objects:  97% (79/81)Compressing objects:  98% (80/81)Compressing objects: 100% (81/81)Compressing objects: 100% (81/81), done.
+Writing objects:   1% (1/81)Writing objects:   2% (2/81)Writing objects:   4% (4/81)Writing objects:   6% (5/81)Writing objects:   7% (6/81)Writing objects:   8% (7/81)Writing objects:   9% (8/81)Writing objects:  11% (9/81)Writing objects:  12% (10/81)Writing objects:  13% (11/81)Writing objects:  14% (12/81)Writing objects:  16% (13/81)Writing objects:  17% (14/81)Writing objects:  18% (15/81)Writing objects:  19% (16/81)Writing objects:  20% (17/81)Writing objects:  22% (18/81)Writing objects:  23% (19/81)Writing objects:  24% (20/81)Writing objects:  25% (21/81)Writing objects:  27% (22/81)Writing objects:  28% (23/81)Writing objects:  29% (24/81)Writing objects:  30% (25/81)Writing objects:  32% (26/81)Writing objects:  33% (27/81)Writing objects:  34% (28/81)Writing objects:  35% (29/81)Writing objects:  37% (30/81)Writing objects:  38% (31/81)Writing objects:  39% (32/81)Writing objects:  40% (33/81)Writing objects:  41% (34/81)Writing objects:  43% (35/81)Writing objects:  44% (36/81)Writing objects:  45% (37/81)Writing objects:  46% (38/81)Writing objects:  48% (39/81)Writing objects:  49% (40/81)Writing objects:  50% (41/81)Writing objects:  51% (42/81)Writing objects:  53% (43/81)Writing objects:  54% (44/81)Writing objects:  55% (45/81)Writing objects:  56% (46/81)Writing objects:  58% (47/81)Writing objects:  59% (48/81)Writing objects:  60% (49/81)Writing objects:  61% (50/81)Writing objects:  62% (51/81)Writing objects:  64% (52/81)Writing objects:  65% (53/81)Writing objects:  66% (54/81), 1.23 MiB | 2.42 MiB/sWriting objects:  67% (55/81), 1.23 MiB | 2.42 MiB/sWriting objects:  69% (56/81), 1.23 MiB | 2.42 MiB/sWriting objects:  70% (57/81), 1.23 MiB | 2.42 MiB/sWriting objects:  71% (58/81), 1.23 MiB | 2.42 MiB/sWriting objects:  72% (59/81), 1.23 MiB | 2.42 MiB/sWriting objects:  74% (60/81), 1.23 MiB | 2.42 MiB/sWriting objects:  75% (61/81), 1.23 MiB | 2.42 MiB/sWriting objects:  76% (62/81), 1.23 MiB | 2.42 MiB/sWriting objects:  77% (63/81), 1.23 MiB | 2.42 MiB/sWriting objects:  79% (64/81), 1.23 MiB | 2.42 MiB/sWriting objects:  80% (65/81), 1.23 MiB | 2.42 MiB/sWriting objects:  81% (66/81), 1.23 MiB | 2.42 MiB/sWriting objects:  82% (67/81), 1.23 MiB | 2.42 MiB/sWriting objects:  83% (68/81), 1.23 MiB | 2.42 MiB/sWriting objects:  85% (69/81), 1.23 MiB | 2.42 MiB/sWriting objects:  86% (70/81), 1.23 MiB | 2.42 MiB/sWriting objects:  87% (71/81), 1.23 MiB | 2.42 MiB/sWriting objects:  88% (72/81), 1.23 MiB | 2.42 MiB/sWriting objects:  90% (73/81), 1.23 MiB | 2.42 MiB/sWriting objects:  91% (74/81), 1.23 MiB | 2.42 MiB/sWriting objects:  92% (75/81), 1.23 MiB | 2.42 MiB/sWriting objects:  93% (76/81), 1.23 MiB | 2.42 MiB/sWriting objects:  95% (77/81), 1.23 MiB | 2.42 MiB/sWriting objects:  96% (78/81), 1.23 MiB | 2.42 MiB/sWriting objects:  97% (79/81), 1.23 MiB | 2.42 MiB/sWriting objects:  98% (80/81), 1.23 MiB | 2.42 MiB/sWriting objects: 100% (81/81), 1.23 MiB | 2.42 MiB/sWriting objects: 100% (81/81), 2.01 MiB | 3.25 MiB/s, done.
+Total 81 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 2 local objects.[K
+To https://github.com/luisedmundo354/detecting_arguments.git
+   52a4cfd..d80b024  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+(ai_agents) ]0;~/detecting_arguments[01;34m~/detecting_arguments[00m$ l
