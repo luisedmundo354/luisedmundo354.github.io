@@ -122,3 +122,6 @@ dmypy.json
 
 # Term
 personal_website_terminal.term
+.personal_website_terminal.term-0.term
+.personal_website_terminal.term.sage-chat
+personal_website_terminal.term-0.term
