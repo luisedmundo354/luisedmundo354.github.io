@@ -72,12 +72,10 @@ _August 2019 – December 2020_
 **Johns Hopkins University**  
 *Master's, Engineering Management* (Technical Track: Smart Product and Device Design)  
 _August 2023 – May 2025_ • GPA: 3.65  
-Relevant coursework: Artificial Intelligence, Algorithms for Sensor‑based Robotics, Reinforcement Learning, Artificial Agents, Machine Intelligence on Embedded Systems, Customer Discovery, Finance, Strategic Planning
 
 **Universidad de Lima**  
 *Bachelor's, Industrial Engineering*  
 _March 2013 – February 2018_ • GPA: 4  
-Relevant coursework: Process Engineering, Industrial Automation, Process Analysis, Electrical Engineering, Industrial Technology, Operations Research, Marketing
 
 ## Certifications {#certifications}
 
