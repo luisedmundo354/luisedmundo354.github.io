@@ -6,7 +6,29 @@ title: "Luis Edmundo Brena Pantoja – Portfolio"
 
 I am currently pursuing a Master's degree in Engineering Management at Johns Hopkins University, where I am supervised by Professor Mahyar Fazlyab. In addition to my studies, I am working on an independent project called [Mentat](https://www.mentat.health/), serving as an event manager at the Peabody Institute, and conducting research on information extraction.
 
-My research interests include reinforcement learning, natural language processing, and process automation. I aim to merge digital and physical systems to improve tasks that have not yet been automated, such as recording patient information in healthcare, handling legal taxation, and managing administrative processes. My current research project is titled "Detecting Arguments in US Tax Court Decisions on Corporate Taxation Cases."
+My research focuses on reinforcement learning, natural language processing, and process automation. I aim to integrate digital and physical systems to automate tasks like recording patient information, managing legal taxation, and handling administrative processes. My current project is titled "Detecting Arguments in US Tax Court Decisions on Corporate Taxation Cases."
+
+## Manuscripts & Software {#manuscripts}
+
+### Research in Progress
+- **Detecting Arguments in U.S. Tax Court Decisions on Corporate Taxation Cases** — ongoing project.
+
+### Open-Source Software
+- **Mentat** — <https://github.com/luisedmundo354/mentat>  
+  Tkinter-based GUI for the Mentat medical-AI platform.
+
+- **Adaptive Beamforming** — <https://github.com/luisedmundo354/beam_forming>  
+  Port of ST’s MEMS-mic beam-forming libraries to the STM32L476 + X-NUCLEO-CCA02M2.
+
+- **Nmbr9** — <https://github.com/luisedmundo354/Nmbr9>  
+  Digital version of *NMBR 9* featuring the custom **SAM** RL algorithm.  
+  Paper: [“A Monte-Carlo Tree Search Reinforcement Learning Approach to Playing NMBR 9”](assets/rl.pdf).
+
+### Technical Manuscripts
+- **Warehouse Layout Optimization Using PRM and the Capacity Scaling Algorithm** — [PDF](assets/optimization.pdf)  
+  Fast heuristic for large-scale warehouse-design optimization.
+
+
 
 ## Projects & Outside Experience {#projects}
 
@@ -44,14 +66,6 @@ _August 2019 – December 2020_
   *Issued by El Tambo Municipal Government – October 2022*
 - **Corporate Governance Essay Contest Winner**  
   *Issued by Universidad de Lima – July 2017*
-
-## Manuscripts {#manuscripts}
-
-- Ongoing: Detecting Arguments in US Tax Court Decisions on Corporate Taxation Cases
-- [Warehouse Layout Optimization Using PRM and the Capacity
- Scaling Algorithm](assets/optimization.pdf) – Network Models Project
-- [A Monte-Carlo Tree Search Reinforcement
-Learning Approach to Playing NMBR 9](assets/rl.pdf) – Reinforcement Learning Project
 
 ## Education {#education}
 
