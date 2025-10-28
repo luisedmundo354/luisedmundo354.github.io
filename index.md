@@ -89,12 +89,6 @@ _2016 – 2017_
 
 ## Professional Experience {#experience}
 
-**AI Institute, Johns Hopkins University** – *Graduate Research Assistant* | Baltimore, MD, USA_April 2025 – Present_
-
-- Built an end-to-end fine-tuning pipeline for legal drafting and logical validation (Transformers, SageMaker, PyTorch); boosted retrieval quality.
-- Redesigned span–relation UI and updated annotation guidelines in Label Studio to annotate U.S. corporate tax cases; improved agreement.
-- Authored a relation-labeled argumentation scheme used for structured reasoning generation and LM training.
-
 **Peabody Institute of The Johns Hopkins University** – *Event Technology & Operations Manager* | Baltimore, MD, USA_July 2024 – May 2025_
 
 - Applied Lean techniques to optimize inventory flow; reduced days-inventory-outstanding for swag items.
