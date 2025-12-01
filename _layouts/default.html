@@ -1,53 +1,52 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title | default: site.title }}</title>
 
 {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <!--suppress HtmlUnknownTarget --><link rel="stylesheet" href="/assets/css/style.css">
+    <!--suppress HtmlUnknownTarget --><script src="/assets/js/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
     {% include head-custom.html %}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="icon" href="{{ '/_includes/favicon.ico' | relative_url }}" type="image/x-icon">
+    <!--suppress HtmlMissingLocalResource --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--suppress HtmlUnknownTarget --><link rel="icon" href="/_includes/favicon.ico" type="image/x-icon">
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Luis Brena" class="profile-img">
+        <!--suppress HtmlUnknownTarget --><img src="/assets/images/profile.jpg" alt="Luis Brena" class="profile-img">
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
 
       <ul>
-        <li><a href="#manuscripts">Software</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><!--suppress HtmlUnknownTarget --><a href="/publications">Publications</a></li>
+        <li><!--suppress HtmlUnknownAnchor --><a href="/#manuscripts">Software</a></li>
+        <li><!--suppress HtmlUnknownAnchor --><a href="/#education">Education</a></li>
+        <li><!--suppress HtmlUnknownAnchor --><a href="/#experience">Experience</a></li>
+        <li><!--suppress HtmlUnknownAnchor --><a href="/#projects">Projects</a></li>
+        <li><!--suppress HtmlUnknownAnchor --><a href="/#contact">Contact</a></li>
       </ul>
 
         {% if site.github.is_project_page %}
-          <p class="header">This project is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+          <p class="header">This project is maintained by <!--suppress HtmlUnknownTarget --><a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
 
         {% if site.github.is_user_page %}
           <ul class="social-links">
             <li>
-              <a href="https://linkedin.com/in/luis-brena" target="_blank" class="social-icon">
+              <!--suppress HtmlMissingLocalResource --><a href="https://linkedin.com/in/luis-brena" target="_blank" class="social-icon">
                 <i class="fab fa-linkedin"></i>
               </a>
             </li>
             <li>
-              <a href="{{ site.github.owner_url }}" target="_blank" class="social-icon">
+              <!--suppress HtmlUnknownTarget --><a href="{{ site.github.owner_url }}" target="_blank" class="social-icon">
                 <i class="fab fa-github"></i>
               </a>
             </li>
             <li>
-              <a href="/assets/resume.pdf" download class="social-icon">
+              <!--suppress HtmlUnknownTarget --><a href="/assets/resume.pdf" download class="social-icon">
                 <i class="fas fa-file-download"></i>
               </a>
             </li>
