@@ -10,7 +10,9 @@ I’m a Graduate Research Assistant at the AI Institute at Johns Hopkins Univers
 
 ### Research in Progress
 
-- **Detecting Arguments in U.S. Tax Court Decisions on Corporate Taxation Cases** — ongoing project.
+- [**Chain-of-Syllogisms: Unifying Analysis & Conclusions Boosts Argument Mining**]({{ '/assets/chain_of_syllogisms.pdf' | relative_url }})
+- **AAO non-precedent dataset and meta-interpreter for decision inference** - [https://github.com/luisedmundo354/synthetic_data/tree/master/aao_cases](https://github.com/luisedmundo354/synthetic_data/tree/master/aao_cases) - ongoing project.
+- **Detecting Arguments in U.S. Corporate Reorganization Cases** — ongoing project.
 
 ### Open-Source Software
 
