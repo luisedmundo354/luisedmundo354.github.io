@@ -71,11 +71,11 @@ I’m a Graduate Research Assistant at the AI Institute at Johns Hopkins Univers
 
 **Johns Hopkins University**
 *M.S., Engineering Management* (Technical Track: Smart Product and Device Design)
-_August 2023 – May 2025_ • GPA: 3.65
+_August 2023 – May 2025_ • GPA: 3.47
 
 **Universidad de Lima**
 *B.Eng., Industrial Engineering*
-_March 2013 – February 2018_ • GPA: 4
+_March 2013 – February 2018_ • GPA: 4.00
 
 **ESAN Business School**
 *Graduate Program, Corporate Law*
