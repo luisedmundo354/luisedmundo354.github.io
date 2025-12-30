@@ -3,6 +3,12 @@
 
 @import "{{ site.theme }}";
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --bg: #0b1020;
   --bg-2: #070a14;
@@ -55,19 +61,24 @@ a {
 }
 
 .wrapper {
-  max-width: 1120px;
+  width: 100%;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 40px 22px;
   display: grid;
-  grid-template-columns: 320px minmax(0, 1fr);
+  grid-template-columns: 360px minmax(0, 1fr);
   gap: 28px;
 }
 
-header.site-header,
-section {
+.wrapper > header.site-header,
+.wrapper > section {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
   border-radius: 16px;
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
+  overflow-wrap: anywhere;
 }
 
 header.site-header {
@@ -77,9 +88,11 @@ header.site-header {
   top: 24px;
   align-self: start;
   height: fit-content;
+  display: flex;
+  flex-direction: column;
 }
 
-section {
+.wrapper > section {
   background: var(--panel-2);
   padding: 28px 32px;
   min-width: 0;
@@ -110,27 +123,42 @@ footer {
   font-size: 0.95rem;
 }
 
-.site-nav {
+header.site-header ul.site-nav {
   list-style: none;
   padding: 0;
   margin: 18px 0 0;
   display: grid;
-  gap: 6px;
+  gap: 8px;
+  width: 100%;
+  position: static !important;
+  inset: auto !important;
 
   li {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+    float: none;
+    clear: none;
+    overflow: visible;
     background: none !important;
+    background-image: none !important;
     border: 0 !important;
     box-shadow: none !important;
   }
 
-  a {
+  li a {
     display: block;
-    padding: 8px 10px;
+    width: 100%;
+    padding: 10px 12px;
     border-radius: 10px;
     border: 1px solid transparent;
+    background-image: none !important;
     color: var(--text);
+    font-size: 0.95rem;
+    line-height: 1.25;
+    white-space: normal;
     text-decoration: none;
 
     &:hover {
@@ -144,6 +172,11 @@ footer {
       outline-offset: 2px;
     }
   }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .profile-img {
@@ -197,7 +230,7 @@ footer {
   }
 }
 
-section {
+.wrapper > section {
   h1,
   h2,
   h3 {
@@ -258,7 +291,7 @@ section {
     position: static;
   }
 
-  section {
+  .wrapper > section {
     padding: 22px 20px;
   }
 }
