@@ -6,47 +6,56 @@
     <title>{{ page.title | default: site.title }}</title>
 
 {% seo %}
-    <!--suppress HtmlUnknownTarget --><link rel="stylesheet" href="/assets/css/style.css">
-    <!--suppress HtmlUnknownTarget --><script src="/assets/js/scale.fix.js"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     {% include head-custom.html %}
-    <!--suppress HtmlMissingLocalResource --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!--suppress HtmlUnknownTarget --><link rel="icon" href="/_includes/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <!--suppress HtmlUnknownTarget --><img src="/assets/images/profile.jpg" alt="Luis Brena" class="profile-img">
-        <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
-        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+      <header class="site-header">
+        <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Luis Brena" class="profile-img">
+        <h1 class="site-title">
+          <a href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a>
+        </h1>
+        <p class="site-tagline">{{ site.description | default: site.github.project_tagline }}</p>
 
-      <ul>
-        <li><!--suppress HtmlUnknownTarget --><a href="/publications">Publications</a></li>
-        <li><!--suppress HtmlUnknownAnchor --><a href="/#manuscripts">Software</a></li>
-        <li><!--suppress HtmlUnknownAnchor --><a href="/#education">Education</a></li>
-        <li><!--suppress HtmlUnknownAnchor --><a href="/#experience">Experience</a></li>
-        <li><!--suppress HtmlUnknownAnchor --><a href="/#projects">Projects</a></li>
-        <li><!--suppress HtmlUnknownAnchor --><a href="/#contact">Contact</a></li>
-      </ul>
+        <nav class="site-nav-wrapper" aria-label="Sections">
+          <ul class="site-nav">
+            <li><a href="{{ '/' | relative_url }}#about">About</a></li>
+            <li><a href="{{ '/' | relative_url }}#manuscripts">Manuscripts &amp; Software</a></li>
+            <li><a href="{{ '/' | relative_url }}#projects">Projects</a></li>
+            <li><a href="{{ '/' | relative_url }}#honors">Honors</a></li>
+            <li><a href="{{ '/' | relative_url }}#education">Education</a></li>
+            <li><a href="{{ '/' | relative_url }}#certifications">Certifications</a></li>
+            <li><a href="{{ '/' | relative_url }}#experience">Professional Experience</a></li>
+            <li><a href="{{ '/' | relative_url }}#skills">Skills</a></li>
+            <li><a href="{{ '/' | relative_url }}#contact">Contact</a></li>
+            <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
+          </ul>
+        </nav>
 
         {% if site.github.is_project_page %}
-          <p class="header">This project is maintained by <!--suppress HtmlUnknownTarget --><a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+          <p class="header">
+            This project is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
+          </p>
         {% endif %}
 
         {% if site.github.is_user_page %}
           <ul class="social-links">
             <li>
-              <!--suppress HtmlMissingLocalResource --><a href="https://linkedin.com/in/luis-brena" target="_blank" class="social-icon">
+              <a href="https://linkedin.com/in/luis-brena" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
                 <i class="fab fa-linkedin"></i>
               </a>
             </li>
             <li>
-              <!--suppress HtmlUnknownTarget --><a href="{{ site.github.owner_url }}" target="_blank" class="social-icon">
+              <a href="{{ site.github.owner_url }}" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
                 <i class="fab fa-github"></i>
               </a>
             </li>
             <li>
-              <!--suppress HtmlUnknownTarget --><a href="/assets/resume.pdf" download class="social-icon">
+              <a href="{{ '/assets/resume.pdf' | relative_url }}" download class="social-icon" aria-label="Download resume">
                 <i class="fas fa-file-download"></i>
               </a>
             </li>

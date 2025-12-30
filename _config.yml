@@ -1,5 +1,14 @@
 title: "Luis Brena"
-description: "MS in Engineering Management"
+description: "Graduate Research Assistant @ JHU • AI/NLP • RAG • Process Automation"
 theme: jekyll-theme-dinky
 
 # (Optional: add additional configuration variables as needed)
+
+# GitHub Pages (user site) settings
+# - Leave `baseurl` empty for `username.github.io` repos
+# - Update `url` to your custom domain once configured
+url: "https://luisedmundo354.github.io"
+baseurl: ""
+
+exclude:
+  - CUSTOM_DOMAIN.md
