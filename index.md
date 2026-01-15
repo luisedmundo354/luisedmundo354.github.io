@@ -18,8 +18,8 @@ I’m a Graduate Research Assistant at the AI Institute at Johns Hopkins Univers
 
 ### Open-Source Software
 
-- **Mentat** — [https://github.com/luisedmundo354/mentat](https://github.com/luisedmundo354/mentat)
-  Tkinter-based GUI for the Mentat medical-AI platform.
+- **Mentat** — [https://www.mentat.health/technology/](https://www.mentat.health/technology/)
+  Tkinter-based GUI for the Mentat medical-AI platform. Repo: [https://github.com/luisedmundo354/mentat](https://github.com/luisedmundo354/mentat)
 - **Adaptive Beamforming** — [https://github.com/luisedmundo354/beam_forming](https://github.com/luisedmundo354/beam_forming)
   Port of ST’s MEMS-mic beam-forming libraries to the STM32L476 + X-NUCLEO-CCA02M2.
 - **Nmbr9** — [https://github.com/luisedmundo354/Nmbr9](https://github.com/luisedmundo354/Nmbr9)
@@ -36,6 +36,7 @@ I’m a Graduate Research Assistant at the AI Institute at Johns Hopkins Univers
 ## Projects & Outside Experience {#projects}
 
 ### Mentat — Co-founder
+
 <p class="meta">Baltimore, MD, USA • September 2024 – Present</p>
 
 - Spring 2025 Spark Accelerator participant at The Pava Marie LaPere Center for Entrepreneurship.
@@ -43,12 +44,14 @@ I’m a Graduate Research Assistant at the AI Institute at Johns Hopkins Univers
 - Repository: https://github.com/luisedmundo354/mentat
 
 ### Design Process Improvement at Intralox — Engineering Intern (Generative AI)
+
 <p class="meta">Baltimore, MD, USA • September 2023 – December 2023</p>
 
 - Built a human-in-the-loop ideation pipeline (OpenAI API + image generation) that produced 100+ product/business concepts.
 - Delivered production methodology and code adopted by the product development team.
 
 ### Bed Assignment Process Improvement at Johns Hopkins Hospital — Operations Analyst Trainee
+
 <p class="meta">Baltimore, MD, USA • August 2023 – September 2023</p>
 
 - Revamped communication between the Emergency Department and Capacity Command Center.
@@ -56,6 +59,7 @@ I’m a Graduate Research Assistant at the AI Institute at Johns Hopkins Univers
 - Presented findings to the management team.
 
 ### Operational Restructuring at Centrocorp (Honda Motor Official Dealer) — Operational Restructuring Manager
+
 <p class="meta">Huancayo, JU, Peru • August 2019 – December 2020</p>
 
 - Increased maintenance unit revenue by 15% with new service additions.
@@ -78,12 +82,15 @@ I’m a Graduate Research Assistant at the AI Institute at Johns Hopkins Univers
 ## Education {#education}
 
 ### Johns Hopkins University
+
 <p class="meta">M.S., Engineering Management (Smart Product and Device Design) • August 2023 – May 2025 • GPA: 3.47</p>
 
 ### Universidad de Lima
+
 <p class="meta">B.Eng., Industrial Engineering • March 2013 – February 2018 • GPA: 4.00</p>
 
 ### ESAN Business School
+
 <p class="meta">Graduate Program, Corporate Law • 2016 – 2017</p>
 
 ## Certifications {#certifications}
@@ -95,6 +102,7 @@ I’m a Graduate Research Assistant at the AI Institute at Johns Hopkins Univers
 ## Professional Experience {#experience}
 
 ### Peabody Institute of The Johns Hopkins University — Event Technology &amp; Operations Manager
+
 <p class="meta">Baltimore, MD, USA • July 2024 – May 2025</p>
 
 - Applied Lean techniques to optimize inventory flow; reduced days-inventory-outstanding for swag items.
@@ -102,12 +110,14 @@ I’m a Graduate Research Assistant at the AI Institute at Johns Hopkins Univers
 - Reduced labor hours and reliance on temporary hires.
 
 ### Intralox — Engineering Intern (Generative AI)
+
 <p class="meta">Baltimore, MD, USA • September 2023 – December 2023</p>
 
 - Created an AI ideation pipeline transforming market briefs into concepts and visual mockups; generated 100+ ideas.
 - Delivered code and methodology adopted by the product development team.
 
 ### CHC Hotels — Senior Manager, Operations &amp; Digital Transformation
+
 <p class="meta">Huancayo, Peru • August 2018 – August 2023</p>
 
 - Led cross-functional teams to implement dynamic pricing and automation; increased RevPAR and guest satisfaction.
@@ -115,12 +125,14 @@ I’m a Graduate Research Assistant at the AI Institute at Johns Hopkins Univers
 - Deployed Oracle Micros POS and Clock PMS; standardized SOPs; implemented a Rails inventory system to improve turnover and savings.
 
 ### Grupo Oka (Specialty Food Retail) — Founder &amp; Product Lead
+
 <p class="meta">Huancayo, Peru • October 2018 – August 2023</p>
 
 - Scaled from one outlet to three; ~$300K annual revenue and top-of-mind brand positioning.
 - Led construction/compliance, product, and marketing operations.
 
 ### Relif Store — Software Engineer
+
 <p class="meta">Lima, Peru • December 2017 – August 2018</p>
 
 - Built a Rails e-commerce and inventory system; streamlined order processing and stock tracking.
