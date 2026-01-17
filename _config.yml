@@ -12,3 +12,7 @@ baseurl: ""
 
 exclude:
   - CUSTOM_DOMAIN.md
+  - Gemfile
+  - Gemfile.lock
+  - .bundle
+  - vendor
