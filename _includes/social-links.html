@@ -1,0 +1,19 @@
+{% assign p = site.data.profile %}
+<div class="social">
+  <a class="social-link" href="mailto:{{ p.links.email }}" aria-label="Email">
+    {% include icon.html name="email" class="icon" %}
+    <span class="social-text">{{ p.links.email }}</span>
+  </a>
+
+  <div class="social-row" aria-label="Links">
+    <a class="icon-btn" href="{{ p.links.github }}" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+      {% include icon.html name="github" class="icon" %}
+    </a>
+    <a class="icon-btn" href="{{ p.links.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+      {% include icon.html name="linkedin" class="icon" %}
+    </a>
+    <a class="icon-btn" href="{{ p.cv_path | relative_url }}" aria-label="Download CV" title="Download CV">
+      {% include icon.html name="file" class="icon" %}
+    </a>
+  </div>
+</div>

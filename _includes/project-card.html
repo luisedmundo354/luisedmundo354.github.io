@@ -1,0 +1,50 @@
+{% assign project = include.project %}
+
+<article class="card project" id="project-{{ project.id }}">
+  <div class="project-media">
+    <img src="{{ project.image | relative_url }}" alt="{{ project.title }} thumbnail" loading="lazy" decoding="async">
+  </div>
+
+  <div class="project-body">
+    <header class="project-header">
+      <h3 class="project-title">{{ project.title }}</h3>
+      {% if project.subtitle %}
+        <div class="project-subtitle">{{ project.subtitle }}</div>
+      {% endif %}
+    </header>
+
+    {% if project.description %}
+      <p class="project-desc">{{ project.description }}</p>
+    {% endif %}
+
+    {% if project.links %}
+      <div class="project-links" aria-label="{{ project.title }} links">
+        {% for link in project.links %}
+          {% if link.url contains 'http' %}
+            <a class="chip" href="{{ link.url }}" target="_blank" rel="noopener">
+              {{ link.label }}
+            </a>
+          {% else %}
+            <a class="chip" href="{{ link.url | relative_url }}">
+            {{ link.label }}
+          </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if project.embed and project.embed.type == "figma" %}
+      <details class="embed">
+        <summary>Prototype</summary>
+        <div class="embed-frame">
+          <iframe
+            title="{{ project.embed.title | default: project.title }}"
+            src="{{ project.embed.src }}"
+            loading="lazy"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </details>
+    {% endif %}
+  </div>
+</article>
