@@ -1,3 +1,14 @@
+- id: "meta-interpreter"
+  title: "Proleg meta-interpreter"
+  subtitle: "Legal reasoning + Prolog"
+  description: "Meta-interpreter for legal reasoning on immigration cases."
+  image: "/assets/images/projects/pia.png"
+  links:
+    - label: "PDF"
+      url: "/assets/fol-derivation.pdf"
+    - label: "Code"
+      url: "https://github.com/luisedmundo354/synthetic_data"
+
 - id: "chain-of-syllogisms"
   title: "Chain-of-Syllogisms"
   subtitle: "Argument mining"
