@@ -1,0 +1,55 @@
+- id: "chain-of-syllogisms"
+  title: "Chain-of-Syllogisms"
+  subtitle: "Argument mining"
+  description: "New argument scheme for passage classification + Corporate law dataset"
+  image: "/assets/images/projects/chain-of-syllogisms-ui.png"
+  links:
+    - label: "PDF"
+      url: "/assets/chain_of_syllogisms.pdf"
+
+- id: "nmbr9"
+  title: "Nmbr9"
+  subtitle: "Reinforcement Learning + Game design"
+  description: "Digital version of NMBR 9 with a custom RL agent (SAM)."
+  image: "/assets/images/projects/nmbr9.gif"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/luisedmundo354/Nmbr9"
+    - label: "Paper"
+      url: "/assets/rl.pdf"
+    - label: "Presentation"
+      url: "https://docs.google.com/presentation/d/1U30rZ57N3kYkdKx9ckWSIVv8zBg87H2B8avP1JmR92g/edit?usp=sharing"
+
+- id: "mentat"
+  title: "Mentat"
+  subtitle: "Entrepreneurship • ML/NLP"
+  description: "Medical‑AI platform work: annotation workflows plus ML/NLP features (information extraction, generation, rewriting)."
+  image: "/assets/images/projects/mentat-prototype.png"
+  links:
+    - label: "Website"
+      url: "https://www.mentat.health/technology/"
+    - label: "GitHub"
+      url: "https://github.com/luisedmundo354/mentat"
+    - label: "Prototype"
+      url: "https://www.figma.com/proto/LWRUMHcG5EKkgKjfwHef2u/mentat?node-id=4-3&starting-point-node-id=4%3A3"
+
+- id: "layout-optimization"
+  title: "Warehouse Layout Optimization"
+  subtitle: "Operations Research"
+  description: "Fast heuristic for optimizing large-scale warehouse design using PRM and the Capacity Scaling Algorithm. Closed form solution."
+  image: "/assets/images/projects/layout-optimization.png"
+  links:
+    - label: "Presentation"
+      url: "/assets/optimization.pdf"
+
+
+- id: "beamforming"
+  title: "Adaptive Beamforming"
+  subtitle: "Embedded audio"
+  description: "Ported ST MEMS-mic beamforming libraries to STM32L476 + X-NUCLEO-CCA02M2."
+  image: "/assets/images/projects/beamforming.svg"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/luisedmundo354/beam_forming"
+
+

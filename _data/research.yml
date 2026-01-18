@@ -1,0 +1,17 @@
+- title: "Chain-of-Syllogisms: Unifying Analysis & Conclusions Boosts Argument Mining"
+  status: "Paper"
+  links:
+    - label: "PDF"
+      url: "/assets/chain_of_syllogisms.pdf"
+- title: "Mining Legal Arguments in U.S. Corporate Law"
+  status: "Submitted to ARR"
+  links:
+    - label: "Code"
+      url: "https://github.com/luisedmundo354/detecting_arguments"
+- title: "AAO non-precedent dataset + meta-interpreter for decision inference"
+  status: "Ongoing"
+  links:
+    - label: "Code"
+      url: "https://github.com/luisedmundo354/synthetic_data/tree/master/aao_cases"
+    - label: "Presentation"
+      url: "https://docs.google.com/presentation/d/1guNxYpe9ywoKccQSqEqaG7hSIVFsfa3fG2d1fe1npkQ/edit?usp=sharing"

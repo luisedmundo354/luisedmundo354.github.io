@@ -2,75 +2,59 @@
 <html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ page.title | default: site.title }}</title>
 
 {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     {% include head-custom.html %}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
+    {% assign p = site.data.profile %}
+
     <div class="wrapper">
-      <header class="site-header">
-        <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Luis Brena" class="profile-img">
-        <h1 class="site-title">
-          <a href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a>
-        </h1>
-        <p class="site-tagline">{{ site.description | default: site.github.project_tagline }}</p>
-
-        <nav class="site-nav-wrapper" aria-label="Sections">
-          <ul class="site-nav">
-            <li><a href="{{ '/' | relative_url }}#about">About</a></li>
-            <li><a href="{{ '/' | relative_url }}#manuscripts">Manuscripts &amp; Software</a></li>
-            <li><a href="{{ '/' | relative_url }}#projects">Projects</a></li>
-            <li><a href="{{ '/' | relative_url }}#honors">Honors</a></li>
-            <li><a href="{{ '/' | relative_url }}#education">Education</a></li>
-            <li><a href="{{ '/' | relative_url }}#certifications">Certifications</a></li>
-            <li><a href="{{ '/' | relative_url }}#experience">Professional Experience</a></li>
-            <li><a href="{{ '/' | relative_url }}#skills">Skills</a></li>
-            <li><a href="{{ '/' | relative_url }}#contact">Contact</a></li>
-            <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
-          </ul>
-        </nav>
-
-        {% if site.github.is_project_page %}
-          <p class="header">
-            This project is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
-          </p>
-        {% endif %}
-
-        {% if site.github.is_user_page %}
-          <ul class="social-links">
-            <li>
-              <a href="https://linkedin.com/in/luis-brena" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a href="{{ site.github.owner_url }}" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
-                <i class="fab fa-github"></i>
-              </a>
-            </li>
-            <li>
-              <a href="{{ '/assets/resume.pdf' | relative_url }}" download class="social-icon" aria-label="Download resume">
-                <i class="fas fa-file-download"></i>
-              </a>
-            </li>
-          </ul>
-      {% endif %}
+      <header class="navbar container" aria-label="Site">
+        <a class="brand" href="{{ '/' | relative_url }}">{{ p.name }}</a>
       </header>
+      <div class="container">
+        <hr class="rule">
+      </div>
 
-      <section>
-        {{ content }}
-      </section>
+      <div class="site container">
+        <aside class="sidebar" aria-label="Sidebar">
+          <div class="sidebar-card">
+            <img class="sidebar-photo" src="{{ p.photo | relative_url }}" alt="Photo of {{ p.name }}">
+            <div class="sidebar-meta">
+              <div class="sidebar-name">{{ p.name }}</div>
+              <div class="sidebar-role">{{ p.role }}</div>
+              <div class="sidebar-affiliation">{{ p.affiliation }}</div>
+              <div class="sidebar-location">{{ p.location }}</div>
+            </div>
+          </div>
 
-      <footer>
-        <p><small></small></p>
-      </footer>
+          {% include social-links.html %}
+
+          <nav class="side-nav" aria-label="Sections">
+            <ul>
+              <li><a class="side-link" href="#summary">Summary</a></li>
+              <li><a class="side-link" href="#research">Research</a></li>
+              <li><a class="side-link" href="#education">Education</a></li>
+              <li><a class="side-link" href="#projects">Projects</a></li>
+            </ul>
+          </nav>
+
+          {% include news.html %}
+        </aside>
+
+        <main class="content" id="content">
+          {{ content }}
+        </main>
+      </div>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+    <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
   </body>
 </html>

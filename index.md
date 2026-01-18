@@ -1,165 +1,56 @@
 ---
 layout: default
-title: "Luis Edmundo Brena Pantoja – Portfolio"
+title: "Luis Brena"
 ---
-## About Me {#about}
+{% assign p = site.data.profile %}
 
-I’m a Graduate Research Assistant at the AI Institute at Johns Hopkins University. I earned my M.S. in Engineering Management (ECE/Smart Devices track) from Johns Hopkins in May 2025. My work focuses on retrieval-augmented generation, argument mining, and process automation—linking digital and physical systems to streamline complex workflows in legal, healthcare, and operations.
+## Summary {#summary}
 
-**At a glance:** RAG systems • argument mining • workflow automation • applied ML/NLP.
+{% for line in p.summary %}
+{{ line }}
 
-## Manuscripts & Software {#manuscripts}
+{% endfor %}
 
-### Research in Progress
+<ul class="chips" aria-label="Highlights">
+  {% for item in p.highlights %}
+    <li><span class="chip">{{ item }}</span></li>
+  {% endfor %}
+</ul>
 
-- [Chain-of-Syllogisms: Unifying Analysis & Conclusions Boosts Argument Mining]({{ '/assets/chain_of_syllogisms.pdf' | relative_url }})
-- **AAO non-precedent dataset and meta-interpreter for decision inference** - [https://github.com/luisedmundo354/synthetic_data/tree/master/aao_cases](https://github.com/luisedmundo354/synthetic_data/tree/master/aao_cases) - ongoing project.
-- **Detecting Arguments in U.S. Corporate Reorganization Cases** — ongoing project.
+<p class="muted">Full details live in my CV. Thank you for visiting!</p>
 
-### Open-Source Software
+## Research {#research}
 
-- **Mentat** — [https://www.mentat.health/technology/](https://www.mentat.health/technology/)
-  Tkinter-based GUI for the Mentat medical-AI platform. Repo: [https://github.com/luisedmundo354/mentat](https://github.com/luisedmundo354/mentat)
-- **Adaptive Beamforming** — [https://github.com/luisedmundo354/beam_forming](https://github.com/luisedmundo354/beam_forming)
-  Port of ST’s MEMS-mic beam-forming libraries to the STM32L476 + X-NUCLEO-CCA02M2.
-- **Nmbr9** — [https://github.com/luisedmundo354/Nmbr9](https://github.com/luisedmundo354/Nmbr9)
-  Digital version of *NMBR 9* featuring the custom **SAM** RL algorithm.
-  Paper: [“A Monte-Carlo Tree Search Reinforcement Learning Approach to Playing NMBR 9”]({{ '/assets/rl.pdf' | relative_url }}).
-- **Label Studio – Text Annotation Features (fork)**
-  Added span–relation UI improvements and revised guidelines to raise agreement and annotation quality.
-
-### Technical Manuscripts
-
-- **Warehouse Layout Optimization Using PRM and the Capacity Scaling Algorithm** — [PDF]({{ '/assets/optimization.pdf' | relative_url }})
-  Fast heuristic for large-scale warehouse-design optimization.
-
-## Projects & Outside Experience {#projects}
-
-### Mentat — Co-founder
-
-<p class="meta">Baltimore, MD, USA • September 2024 – Present</p>
-
-- Spring 2025 Spark Accelerator participant at The Pava Marie LaPere Center for Entrepreneurship.
-- Contributed ML/NLP components (information extraction, text generation, content rewriting) and data/annotation workflows.
-- Repository: https://github.com/luisedmundo354/mentat
-
-### Design Process Improvement at Intralox — Engineering Intern (Generative AI)
-
-<p class="meta">Baltimore, MD, USA • September 2023 – December 2023</p>
-
-- Built a human-in-the-loop ideation pipeline (OpenAI API + image generation) that produced 100+ product/business concepts.
-- Delivered production methodology and code adopted by the product development team.
-
-### Bed Assignment Process Improvement at Johns Hopkins Hospital — Operations Analyst Trainee
-
-<p class="meta">Baltimore, MD, USA • August 2023 – September 2023</p>
-
-- Revamped communication between the Emergency Department and Capacity Command Center.
-- Proposed alternatives to streamline bed assignments and reduce resolution calls.
-- Presented findings to the management team.
-
-### Operational Restructuring at Centrocorp (Honda Motor Official Dealer) — Operational Restructuring Manager
-
-<p class="meta">Huancayo, JU, Peru • August 2019 – December 2020</p>
-
-- Increased maintenance unit revenue by 15% with new service additions.
-- Generated $25K through efficient liquidation of dead stock.
-- Negotiated a partnership with Valvoline and secured a managing partnership deal.
-
-### Selected Projects
-
-- **Legal Argument Generation — Retrieval Model (IR & Argument Mining):** Designed retrieval components using U.S. Tax Court data; improved retrieval accuracy.
-- **STM32 + CCA02M2 — Beam-forming Audio Capture & Processing:** Embedded prototype in C/C++ on STM32 for microphone array beam-forming; working proof of concept.
-- **E-commerce Website & Inventory System (Relif Store):** Rails platform for clothing retail with order processing and stock tracking.
-- **Label Studio – Text Annotation Features (fork):** Span–relation UI, guidelines, and workflow updates to raise inter-annotator agreement.
-- **“Nmbr9” Game + RL:** Game logic/UI in Pygame; actor-critic with safety constraints and evaluation metrics (see “Open-Source Software” above).
-
-## Honors & Prizes {#honors}
-
-- **Hospitality Outstanding Operations Prize** — El Tambo Municipality, Peru (2022)
-- **Corporate Governance Essay Contest — Winner** — Universidad de Lima (2017)
+<ul>
+  {% for item in site.data.research %}
+    <li>
+      <strong>{{ item.title }}</strong>
+      {% if item.status %}<span class="muted"> — {{ item.status }}</span>{% endif %}
+      {% if item.links %}
+        {% for link in item.links %}
+          {% if link.url contains 'http' %}
+            · <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+          {% else %}
+            · <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
 
 ## Education {#education}
 
-### Johns Hopkins University
+<ul class="education-list">
+  {% for edu in site.data.education %}
+    <li><strong>{{ edu.degree }}</strong> — {{ edu.school }} <span class="muted">({{ edu.when }})</span></li>
+  {% endfor %}
+</ul>
 
-<p class="meta">M.S., Engineering Management (Smart Product and Device Design) • August 2023 – May 2025 • GPA: 3.47</p>
+## Projects {#projects}
 
-### Universidad de Lima
-
-<p class="meta">B.Eng., Industrial Engineering • March 2013 – February 2018 • GPA: 4.00</p>
-
-### ESAN Business School
-
-<p class="meta">Graduate Program, Corporate Law • 2016 – 2017</p>
-
-## Certifications {#certifications}
-
-- **Advanced Certificate for Executives in Management, Innovation, and Technology** — MIT Sloan (2018–2019)
-- **SOLIDWORKS Essentials** — Dassault Systèmes (2016)
-- **Web Applications Using ASP.NET and MS SQL Server** — Tecsup (2013)
-
-## Professional Experience {#experience}
-
-### Peabody Institute of The Johns Hopkins University — Event Technology &amp; Operations Manager
-
-<p class="meta">Baltimore, MD, USA • July 2024 – May 2025</p>
-
-- Applied Lean techniques to optimize inventory flow; reduced days-inventory-outstanding for swag items.
-- Coordinated 30+ academic, musical, and corporate events; standardized planning templates and CAD layouts.
-- Reduced labor hours and reliance on temporary hires.
-
-### Intralox — Engineering Intern (Generative AI)
-
-<p class="meta">Baltimore, MD, USA • September 2023 – December 2023</p>
-
-- Created an AI ideation pipeline transforming market briefs into concepts and visual mockups; generated 100+ ideas.
-- Delivered code and methodology adopted by the product development team.
-
-### CHC Hotels — Senior Manager, Operations &amp; Digital Transformation
-
-<p class="meta">Huancayo, Peru • August 2018 – August 2023</p>
-
-- Led cross-functional teams to implement dynamic pricing and automation; increased RevPAR and guest satisfaction.
-- Directed regional operations (2020) and major renovations; drove net-income growth and cost reductions.
-- Deployed Oracle Micros POS and Clock PMS; standardized SOPs; implemented a Rails inventory system to improve turnover and savings.
-
-### Grupo Oka (Specialty Food Retail) — Founder &amp; Product Lead
-
-<p class="meta">Huancayo, Peru • October 2018 – August 2023</p>
-
-- Scaled from one outlet to three; ~$300K annual revenue and top-of-mind brand positioning.
-- Led construction/compliance, product, and marketing operations.
-
-### Relif Store — Software Engineer
-
-<p class="meta">Lima, Peru • December 2017 – August 2018</p>
-
-- Built a Rails e-commerce and inventory system; streamlined order processing and stock tracking.
-
-**Additional Early Experience**
-
-- *Marketing & Communications Intern* — Álvaro Paz de la Barra Mayoral Campaign (2017–2018)
-- *Data Science Intern* — Visual3D Analytics, London (2017)
-- *Event Producer* — Servir NGO, Lima (2017)
-- *Marketing Intern* — Avaí FC, Brazil (2017)
-
-## Skills {#skills}
-
-- **Programming:** Python, C++, C, Ruby, JavaScript
-- **ML/AI:** PyTorch, TensorFlow, Hugging Face Transformers, AWS SageMaker, Azure
-- **Frameworks:** Flask, Django, React, Rails
-- **Data:** PostgreSQL, SQLite, AWS S3, Tableau, MongoDB
-- **Embedded/Hardware:** STM32, CCA02M2, ROS2
-- **Tools:** SolidWorks, MS Visio, Figma, Excel
-- **Languages:** English (fluent), Spanish (fluent)
-
-## Contact {#contact}
-
-For inquiries or further information, please reach out via:
-
-- **Email:** [lbrenap1@jhu.edu](mailto:lbrenap1@jhu.edu)
-- **LinkedIn:** [linkedin.com/in/luis-brena](https://www.linkedin.com/in/luis-brena/)
-- **GitHub:** [github.com/luisedmundo354](https://github.com/luisedmundo354)
-
-[Download My Resume]({{ '/assets/resume.pdf' | relative_url }})
+<div class="projects-grid">
+  {% for proj in site.data.projects %}
+    {% include project-card.html project=proj %}
+  {% endfor %}
+</div>

@@ -1,0 +1,22 @@
+name: "Luis Brena"
+role: "Research Assistant"
+affiliation: "Johns Hopkins University"
+location: "Baltimore, MD"
+
+photo: "/assets/images/profile.jpg"
+cv_path: "/assets/resume.pdf"
+
+summary:
+  - "I am a Research Assistant in Dr. Van Durme's lab at Johns Hopkins University, where I work on NLP, argument mining, and legal reasoning. I earned my M.S. in Engineering Management from Johns Hopkins in 2025, under the guidance of Dr. Mahyar Fazlyab. Before this, I led teams in hospitality, retail, software, and sports."
+  - "My research focuses on interpretable, safe, and reliable language models for legal analysis. I use declarative language models, case grammar, and LLMs to produce evidence-grounded outputs with calibrated uncertainty. I aim to support legal reasoning by surfacing relevant facts, constructing and critiquing arguments, and aiding high-stakes decisions. My current work examines how models can make evidence evaluation more transparent and capture the different ways humans weigh legal factors."
+
+highlights:
+  - "Applied ML/NLP"
+  - "Argument mining"
+  - "IR/RAG"
+  - "Legal reasoning"
+
+links:
+  email: "lbrenap1@jhu.edu"
+  github: "https://github.com/luisedmundo354"
+  linkedin: "https://www.linkedin.com/in/luis-brena/"
