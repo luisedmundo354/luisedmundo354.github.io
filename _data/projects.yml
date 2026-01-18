@@ -43,6 +43,8 @@
       url: "https://github.com/luisedmundo354/mentat"
     - label: "Prototype"
       url: "https://www.figma.com/proto/LWRUMHcG5EKkgKjfwHef2u/mentat?node-id=4-3&starting-point-node-id=4%3A3"
+    - label: "Financial Forecast"
+      url: "/assets/financial-forecast-mentat.pdf"
 
 - id: "layout-optimization"
   title: "Warehouse Layout Optimization"
