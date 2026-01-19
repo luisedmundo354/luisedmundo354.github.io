@@ -4,6 +4,9 @@ theme: jekyll-theme-dinky
 
 # (Optional: add additional configuration variables as needed)
 
+# Analytics (used by `_includes/google-tag.html`)
+google_analytics: "G-CKW08EKDCS"
+
 # Author / social (jekyll-seo-tag)
 author:
   name: "Luis Brena"
