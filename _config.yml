@@ -4,6 +4,23 @@ theme: jekyll-theme-dinky
 
 # (Optional: add additional configuration variables as needed)
 
+# Author / social (jekyll-seo-tag)
+author:
+  name: "Luis Brena"
+
+social:
+  name: "Luis Brena Pantoja"
+  links:
+    - "https://www.linkedin.com/in/luis-brena/"
+    - "https://x.com/luisedmundo3541"
+
+twitter:
+  username: "luisedmundo3541"
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+
 # GitHub Pages (user site) settings
 # - Leave `baseurl` empty for `username.github.io` repos
 # - Update `url` to your custom domain once configured
