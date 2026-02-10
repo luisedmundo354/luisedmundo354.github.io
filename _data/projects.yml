@@ -16,7 +16,7 @@
   image: "/assets/images/projects/chain-of-syllogisms-ui.png"
   links:
     - label: "PDF"
-      url: "/assets/chain_of_syllogisms.pdf"
+      url: "https://ceur-ws.org/Vol-4166/paper9.pdf"
 
 - id: "nmbr9"
   title: "Nmbr9"

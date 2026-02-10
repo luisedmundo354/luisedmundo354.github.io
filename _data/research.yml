@@ -2,7 +2,7 @@
   status: "Paper"
   links:
     - label: "Paper"
-      url: "/assets/chain_of_syllogisms.pdf"
+      url: "https://ceur-ws.org/Vol-4166/paper9.pdf"
 - title: "Mining Legal Arguments in U.S. Corporate Law"
   status: "Submitted to ARR"
   links:
